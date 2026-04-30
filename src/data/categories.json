@@ -10,5 +10,47 @@
 		"description": "Hot and cold coffee drinks.",
 		"section": "drinks",
 		"slug": "coffee"
-	}
+	},
+	{
+    "name": "Snacks",
+    "description": "Hot and cold snacks for every taste.",
+    "section": "food",
+    "slug": "snacks"
+},
+{
+    "name": "Salads",
+    "description": "Fresh and flavorful salads with seasonal ingredients.",
+    "section": "food",
+    "slug": "salads"
+},
+{
+    "name": "Soups",
+    "description": "Hearty and warming first courses made with fresh ingredients.",
+    "section": "food",
+    "slug": "soups"
+},
+{
+    "name": "Main Courses",
+    "description": "Delicious and satisfying main dishes for a perfect meal.",
+    "section": "food",
+    "slug": "main-courses"
+},
+{
+    "name": "Side Dishes",
+    "description": "The perfect accompaniment to your favorite main courses.",
+    "section": "food",
+    "slug": "side-dishes"
+},
+{
+    "name": "Desserts",
+    "description": "Sweet treats and delicacies to complete your meal.",
+    "section": "food",
+    "slug": "desserts"
+},
+{
+    "name": "Add-ons",
+    "description": "Extra toppings and sauces to complement your meal.",
+    "section": "food",
+    "slug": "add-ons"
+}
 ]

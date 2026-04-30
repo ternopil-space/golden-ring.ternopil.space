@@ -230,5 +230,1897 @@
 				"sv": "Espresso med ångad mjölk och mjölkskum. Ingredienser: espresso, ångad mjölk och mjölkskum."
 			}
 		}
-	}
+	},
+	{
+    "slug": "shakshuka-toast",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Шакшука тост",
+        "en": "Shakshuka toast",
+        "de": "Shakshuka-Toast",
+        "es": "Tostada de shakshuka"
+      },
+      "description": {
+        "ua": "Класичне поєднання шакшуки на хрусткому тості.",
+        "en": "A classic combination of shakshuka on a crispy toast.",
+        "de": "Eine klassische Kombination aus Shakshuka auf knusprigem Toast.",
+        "es": "Una combinación clásica de shakshuka en una tostada crujiente."
+      },
+      "price": 260,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Тост зі смаженим яйцем та овочевою основою шакшуки.",
+        "en": "Toast with a fried egg and a shakshuka vegetable base.",
+        "de": "Toast mit Spiegelei und einer Shakshuka-Gemüsebasis.",
+        "es": "Tostada con huevo frito y base de verduras shakshuka."
+      },
+      "suggested": ["coffee-latte", "juice-orange"],
+      "cookTimeMinutes": 10,
+      "portion": "1 шт",
+      "allergens": ["eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "avocado-toast-salmon-roe",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Авокадо тост з лососем та ікрою",
+        "en": "Avocado toast with salmon and roe",
+        "de": "Avocado-Toast mit Lachs und Kaviar",
+        "es": "Tostada de aguacate con salmón y huevas"
+      },
+      "description": {
+        "ua": "Вишуканий тост з авокадо, лососем, редисом та червоною ікрою.",
+        "en": "Exquisite toast with avocado, salmon, radish, and red roe.",
+        "de": "Exquisiter Toast mit Avocado, Lachs, Radieschen und rotem Kaviar.",
+        "es": "Exquisita tostada con aguacate, salmón, rábano y huevas rojas."
+      },
+      "price": 295,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Поживний тост з великою кількістю лосося, червоною ікрою та свіжим авокадо.",
+        "en": "Nutritious toast with plenty of salmon, red roe, and fresh avocado.",
+        "de": "Nahrhafter Toast mit viel Lachs, rotem Kaviar und frischer Avocado.",
+        "es": "Tostada nutritiva con abundante salmón, huevas rojas y aguacate fresco."
+      },
+      "suggested": ["white-wine-glass", "coffee-espresso"],
+      "cookTimeMinutes": 12,
+      "portion": "1 шт",
+      "allergens": ["fish", "gluten"]
+    }
+  },
+  {
+    "slug": "oatmeal-egg-parmesan",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Вівсянка з яйцем та пармезаном",
+        "en": "Oatmeal with egg and parmesan",
+        "de": "Haferflocken mit Ei und Parmesan",
+        "es": "Avena con huevo y parmesano"
+      },
+      "description": {
+        "ua": "Солона вівсянка на курячому бульйоні зі смаженим яйцем.",
+        "en": "Savory oatmeal cooked in chicken broth with a fried egg.",
+        "de": "Herzhafte Haferflocken in Hühnerbrühe gekocht mit einem Spiegelei.",
+        "es": "Avena salada cocida en caldo de pollo con un huevo frito."
+      },
+      "price": 220,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Вівсяні пластівці, приготовані на курячому бульйоні зі спеціями, подаємо зі смаженим яйцем і сиром пармезан.",
+        "en": "Oat flakes cooked in chicken broth with spices, served with a fried egg and parmesan cheese.",
+        "de": "Haferflocken in Hühnerbrühe mit Gewürzen gekocht, serviert mit einem Spiegelei und Parmesankäse.",
+        "es": "Copos de avena cocidos en caldo de pollo con especias, servidos con un huevo frito y queso parmesano."
+      },
+      "suggested": ["tea-sea-buckthorn-orange"],
+      "cookTimeMinutes": 15,
+      "portion": "250г",
+      "allergens": ["eggs", "lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "toast-salmon",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Тост з лососем",
+        "en": "Salmon toast",
+        "de": "Lachs-Toast",
+        "es": "Tostada de salmón"
+      },
+      "description": {
+        "ua": "Бріош з кремом фета та лососем власного посолу.",
+        "en": "Brioche with feta cream and house-cured salmon.",
+        "de": "Brioche mit Feta-Creme und hausgemachtem gebeiztem Lachs.",
+        "es": "Brioche con crema de feta y salmón curado en casa."
+      },
+      "price": 295,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Грінки з бріошу обсмажуємо до рум'яної скоринки, наповнюємо кремом фета, листям салату, слайсами лосося власного посолу та соусом.",
+        "en": "Toasted brioche slices fried until golden, filled with feta cream, lettuce, house-cured salmon slices, and sauce.",
+        "de": "Goldbraun geröstete Brioche-Scheiben, gefüllt mit Feta-Creme, Blattsalat, hausgemachten Lachsscheiben und Sauce.",
+        "es": "Rebanadas de brioche tostadas hasta que estén doradas, rellenas de crema de feta, lechuga, láminas de salmón curado en casa y salsa."
+      },
+      "suggested": ["coffee-latte"],
+      "cookTimeMinutes": 10,
+      "portion": "1 шт",
+      "allergens": ["fish", "lactose", "gluten", "eggs"]
+    }
+  },
+  {
+    "slug": "bowl-chicken",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Боул з куркою",
+        "en": "Chicken bowl",
+        "de": "Chicken Bowl",
+        "es": "Bowl de pollo"
+      },
+      "description": {
+        "ua": "Ситний боул з вівсянкою, куркою та овочевим салатом.",
+        "en": "Hearty bowl with oatmeal, chicken, and vegetable salad.",
+        "de": "Herzhafte Bowl mit Haferflocken, Hähnchen und Gemüsesalat.",
+        "es": "Bowl abundante con avena, pollo y ensalada de verduras."
+      },
+      "price": 260,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Вівсяні пластівці на курячому бульйоні з відвареним яйцем, свіжим салатом, томатами чері та огірком, заправленим оливковою олією.",
+        "en": "Oat flakes in chicken broth with a boiled egg, fresh salad, cherry tomatoes, and cucumber, dressed with olive oil.",
+        "de": "Haferflocken in Hühnerbrühe mit einem gekochten Ei, frischem Salat, Kirschtomaten und Gurken, angemacht mit Olivenöl.",
+        "es": "Copos de avena en caldo de pollo con un huevo hervido, ensalada fresca, tomates cherry y pepino, aliñados con aceite de oliva."
+      },
+      "suggested": ["tea-raspberry-mint"],
+      "cookTimeMinutes": 15,
+      "portion": "300г",
+      "allergens": ["eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "bowl-tuna",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Боул з тунцем",
+        "en": "Tuna bowl",
+        "de": "Thunfisch Bowl",
+        "es": "Bowl de atún"
+      },
+      "description": {
+        "ua": "Поживний боул з вівсянкою, тунцем та яйцем.",
+        "en": "Nutritious bowl with oatmeal, tuna, and egg.",
+        "de": "Nahrhafte Bowl mit Haferflocken, Thunfisch und Ei.",
+        "es": "Bowl nutritivo con avena, atún y huevo."
+      },
+      "price": 295,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Вівсяні пластівці на курячому бульйоні з відвареним яйцем, тунцем та свіжими овочами.",
+        "en": "Oat flakes in chicken broth with a boiled egg, tuna, and fresh vegetables.",
+        "de": "Haferflocken in Hühnerbrühe mit einem gekochten Ei, Thunfisch und frischem Gemüse.",
+        "es": "Copos de avena en caldo de pollo con un huevo hervido, atún y verduras frescas."
+      },
+      "suggested": ["juice-apple"],
+      "cookTimeMinutes": 15,
+      "portion": "300г",
+      "allergens": ["fish", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "syrnyky-apricot-jam",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Сирники з абрикосовим джемом та сметаною",
+        "en": "Cottage cheese pancakes with apricot jam and sour cream",
+        "de": "Quarkpfannkuchen mit Aprikosenmarmelade und Sauerrahm",
+        "es": "Syrnyky con mermelada de albaricoque y crema agria"
+      },
+      "description": {
+        "ua": "Ніжні сирники з сиру з джемом та сметаною.",
+        "en": "Tender cottage cheese pancakes with jam and sour cream.",
+        "de": "Zarte Quarkpfannkuchen mit Marmelade und Sauerrahm.",
+        "es": "Tiernos panqueques de requesón con mermelada y crema agria."
+      },
+      "price": 220,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Сирники з ніжного сиру, обсмажені до рум'яної скоринки, подаємо з абрикосовим джемом, сметаною та цукровою пудрою.",
+        "en": "Pancakes made from delicate cottage cheese, fried until golden, served with apricot jam, sour cream, and powdered sugar.",
+        "de": "Pfannkuchen aus feinem Quark, goldbraun gebraten, serviert mit Aprikosenmarmelade, Sauerrahm und Puderzucker.",
+        "es": "Panqueques hechos de requesón delicado, fritos hasta que estén dorados, servidos con mermelada de albaricoque, crema agria y azúcar glas."
+      },
+      "suggested": ["coffee-latte", "tea-wild-strawberry-viburnum"],
+      "cookTimeMinutes": 20,
+      "portion": "200г",
+      "allergens": ["lactose", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "poppy-pancakes-jam-ice-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "breakfasts",
+      "title": {
+        "ua": "Макові млинці з джемом та морозивом",
+        "en": "Poppy seed pancakes with jam and ice cream",
+        "de": "Mohnpfannkuchen mit Marmelade und Eis",
+        "es": "Panqueques de amapola con mermelada y helado"
+      },
+      "description": {
+        "ua": "Солодкі млинці з маковою начинкою та кулькою морозива.",
+        "en": "Sweet pancakes with poppy seed filling and a scoop of ice cream.",
+        "de": "Süße Pfannkuchen mit Mohnfüllung und einer Kugel Eis.",
+        "es": "Panqueques dulces con relleno de semillas de amapola y una bola de helado."
+      },
+      "price": 220,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Теплі млинці з ніжною маковою начинкою, подаються з кулькою морозива, джемом та посипаються цукровою пудрою.",
+        "en": "Warm pancakes with a delicate poppy seed filling, served with a scoop of ice cream, jam, and dusted with powdered sugar.",
+        "de": "Warme Pfannkuchen mit feiner Mohnfüllung, serviert mit einer Kugel Eis, Marmelade und mit Puderzucker bestäubt.",
+        "es": "Panqueques calientes con un delicado relleno de semillas de amapola, servidos con una bola de helado, mermelada y espolvoreados con azúcar glas."
+      },
+      "suggested": ["coffee-espresso"],
+      "cookTimeMinutes": 15,
+      "portion": "220г",
+      "allergens": ["lactose", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "bruschetta-with-salmon-2pcs",
+    "document": "item",
+    "data": {
+      "categorySlug": "snacks",
+      "title": {
+        "ua": "Брускета з лососем 2 шт",
+        "en": "Bruschetta with salmon 2 pcs",
+        "de": "Bruschetta mit Lachs 2 Stk.",
+        "es": "Bruschetta con salmón 2 uds"
+      },
+      "description": {
+        "ua": "Класична закуска з лососем та крем-фетою на хрусткому хлібі.",
+        "en": "A classic snack with salmon and cream feta on crispy bread.",
+        "de": "Ein klassischer Snack mit Lachs und Feta-Creme auf knusprigem Brot.",
+        "es": "Un aperitivo clásico con salmón y crema de feta sobre pan crujiente."
+      },
+      "price": 140,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Хрусткий хліб із крем-фетою, ніжним слабосолоним лососем, свіжим огірком і легкою кислинкою цибулі.",
+        "en": "Crispy bread with cream feta, tender lightly salted salmon, fresh cucumber, and a light tang of onion.",
+        "de": "Knuspriges Brot mit Feta-Creme, zartem, leicht gesalzenem Lachs, frischer Gurke und einer leichten Zwiebelnote.",
+        "es": "Pan crujiente con crema de feta, tierno salmón ligeramente salado, pepino fresco y un ligero toque de cebolla."
+      },
+      "suggested": ["white-wine-glass", "prosecco"],
+      "cookTimeMinutes": 10,
+      "portion": "2 шт",
+      "allergens": ["gluten", "fish", "lactose"]
+    }
+  },
+  {
+    "slug": "bbq-wings",
+    "document": "item",
+    "data": {
+      "categorySlug": "snacks",
+      "title": {
+        "ua": "Крила BBQ",
+        "en": "BBQ Wings",
+        "de": "BBQ-Wings",
+        "es": "Alitas BBQ"
+      },
+      "description": {
+        "ua": "Хрусткі курячі крильця в солодко-димному соусі.",
+        "en": "Crispy chicken wings in a sweet and smoky sauce.",
+        "de": "Knusprige Hähnchenflügel in einer süß-rauchigen Sauce.",
+        "es": "Alitas de pollo crujientes en salsa dulce y ahumada."
+      },
+      "price": 190,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Хрусткі курячі крила, вкриті насиченим BBQ соусом з легкою солодко-димною ноткою.",
+        "en": "Crispy chicken wings coated in a rich BBQ sauce with a light sweet and smoky note.",
+        "de": "Knusprige Hähnchenflügel, überzogen mit einer reichhaltigen BBQ-Sauce mit einer leichten süß-rauchigen Note.",
+        "es": "Alitas de pollo crujientes bañadas en una rica salsa BBQ con un ligero toque dulce y ahumado."
+      },
+      "suggested": ["beer-lager", "dark-beer"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "tuna-salad",
+    "document": "item",
+    "data": {
+      "categorySlug": "salads",
+      "title": {
+        "ua": "Салат з тунцем",
+        "en": "Tuna salad",
+        "de": "Thunfischsalat",
+        "es": "Ensalada de atún"
+      },
+      "description": {
+        "ua": "Легкий салат із тунцем, овочами та запеченою картоплею.",
+        "en": "A light salad with tuna, vegetables, and roasted potatoes.",
+        "de": "Ein leichter Salat mit Thunfisch, Gemüse und Röstkartoffeln.",
+        "es": "Una ensalada ligera con atún, verduras y patatas asadas."
+      },
+      "price": 255,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Легкий салат із тунцем, свіжими огірками, картоплею, запеченою з травами, маслинами, маринованою синьою цибулею, вареним курячим яйцем.",
+        "en": "A light salad with tuna, fresh cucumbers, herb-roasted potatoes, olives, marinated red onion, and a boiled chicken egg.",
+        "de": "Ein leichter Salat mit Thunfisch, frischen Gurken, mit Kräutern gerösteten Kartoffeln, Oliven, marinierten roten Zwiebeln und einem gekochten Hühnerei.",
+        "es": "Una ensalada ligera con atún, pepinos frescos, patatas asadas con hierbas, aceitunas, cebolla roja marinada y un huevo de gallina cocido."
+      },
+      "suggested": ["white-wine-glass"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["fish", "eggs"]
+    }
+  },
+  {
+    "slug": "provencal-salad",
+    "document": "item",
+    "data": {
+      "categorySlug": "salads",
+      "title": {
+        "ua": "Салат Прованський",
+        "en": "Provençal salad",
+        "de": "Provenzalischen Salat",
+        "es": "Ensalada provenzal"
+      },
+      "description": {
+        "ua": "Освіжаючий овочевий салат у прованському стилі.",
+        "en": "A refreshing Provençal-style vegetable salad.",
+        "de": "Ein erfrischender Gemüsesalat nach provenzalischer Art.",
+        "es": "Una refrescante ensalada de verduras al estilo provenzal."
+      },
+      "price": 180,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Класичний мікс свіжих овочів, маслин та синьої цибулі, заправлений ароматною олією.",
+        "en": "A classic mix of fresh vegetables, olives, and red onion, dressed with aromatic oil.",
+        "de": "Eine klassische Mischung aus frischem Gemüse, Oliven und roten Zwiebeln, angemacht mit aromatischem Öl.",
+        "es": "Una mezcla clásica de verduras frescas, aceitunas y cebolla roja, aliñada con aceite aromático."
+      },
+      "suggested": ["lemonade-classic"],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "caesar-chicken",
+    "document": "item",
+    "data": {
+      "categorySlug": "salads",
+      "title": {
+        "ua": "Цезар з куркою",
+        "en": "Chicken Caesar",
+        "de": "Caesar Salad mit Hähnchen",
+        "es": "César con pollo"
+      },
+      "description": {
+        "ua": "Класичний Цезар із соковитим курячим філе та пармезаном.",
+        "en": "Classic Caesar with juicy chicken fillet and parmesan.",
+        "de": "Klassischer Caesar Salad mit saftigem Hähnchenfilet und Parmesan.",
+        "es": "Clásica César con jugosa pechuga de pollo y parmesano."
+      },
+      "price": 290,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Соковите куряче філе, хрусткий салат, томати чері, варене куряче яйце та соус цезар, посипаємо сиром пармезан.",
+        "en": "Juicy chicken fillet, crispy lettuce, cherry tomatoes, boiled chicken egg, and Caesar dressing, topped with parmesan cheese.",
+        "de": "Saftiges Hähnchenfilet, knackiger Salat, Kirschtomaten, gekochtes Hühnerei und Caesar-Dressing, bestreut mit Parmesankäse.",
+        "es": "Jugosa pechuga de pollo, lechuga crujiente, tomates cherry, huevo de gallina cocido y salsa césar, espolvoreado con queso parmesano."
+      },
+      "suggested": ["white-wine-glass", "orange-juice"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["eggs", "lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "caesar-shrimp",
+    "document": "item",
+    "data": {
+      "categorySlug": "salads",
+      "title": {
+        "ua": "Цезар з креветками",
+        "en": "Shrimp Caesar",
+        "de": "Caesar Salad mit Garnelen",
+        "es": "César con camarones"
+      },
+      "description": {
+        "ua": "Вишуканий Цезар із тигровими креветками та соусом за власним рецептом.",
+        "en": "Exquisite Caesar with tiger shrimps and house-recipe sauce.",
+        "de": "Exquisiter Caesar Salad mit Tigergarnelen und Sauce nach eigenem Rezept.",
+        "es": "Exquisita César con camarones tigre y salsa de receta propia."
+      },
+      "price": 325,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Салат із соковитими тигровими креветками, свіжими томатами чері, соусом цезар, вареним курячим яйцем, доповнений сиром пармезан.",
+        "en": "Salad with juicy tiger shrimps, fresh cherry tomatoes, Caesar dressing, and a boiled chicken egg, complemented by parmesan cheese.",
+        "de": "Salat mit saftigen Tigergarnelen, frischen Kirschtomaten, Caesar-Dressing und einem gekochten Hühnerei, ergänzt durch Parmesankäse.",
+        "es": "Ensalada con jugosos camarones tigre, tomates cherry frescos, salsa césar, huevo de gallina cocido, complementada con queso parmesano."
+      },
+      "suggested": ["prosecco", "white-wine-glass"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": ["crustaceans", "eggs", "lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "chicken-bouillon",
+    "document": "item",
+    "data": {
+      "categorySlug": "soups",
+      "title": {
+        "ua": "Бульйон з куркою",
+        "en": "Chicken bouillon",
+        "de": "Hühnerbrühe",
+        "es": "Caldo de pollo"
+      },
+      "description": {
+        "ua": "Класичний домашній курячий бульйон з локшиною та яйцем.",
+        "en": "Classic homemade chicken bouillon with noodles and an egg.",
+        "de": "Klassische hausgemachte Hühnerbrühe mit Nudeln und Ei.",
+        "es": "Caldo de pollo casero clásico con fideos y huevo."
+      },
+      "price": 135,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Домашній курячий бульйон з ніжною куркою, локшиною та яйцем, подаємо зі свіжою зеленню.",
+        "en": "Homemade chicken bouillon with tender chicken, noodles, and an egg, served with fresh herbs.",
+        "de": "Hausgemachte Hühnerbrühe mit zartem Hähnchen, Nudeln und Ei, serviert mit frischen Kräutern.",
+        "es": "Caldo de pollo casero con pollo tierno, fideos y huevo, servido con hierbas frescas."
+      },
+      "suggested": ["bruschetta-with-salmon-2pcs"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "mushroom-cream-soup",
+    "document": "item",
+    "data": {
+      "categorySlug": "soups",
+      "title": {
+        "ua": "Грибний крем суп",
+        "en": "Mushroom cream soup",
+        "de": "Pilzcremesuppe",
+        "es": "Crema de champiñones"
+      },
+      "description": {
+        "ua": "Ніжний вершковий суп із печериць та білих грибів.",
+        "en": "Delicate creamy soup made from mushrooms and porcini.",
+        "de": "Zarte Cremesuppe aus Champignons und Steinpilzen.",
+        "es": "Crema delicada de champiñones y boletus."
+      },
+      "price": 180,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Ніжний вершковий крем-суп із печериць та білих грибів, з хрусткими грінками, пармезаном і пудрою з білих грибів.",
+        "en": "Delicate creamy soup from mushrooms and porcini, with crispy croutons, parmesan, and porcini powder.",
+        "de": "Zarte Cremesuppe aus Champignons und Steinpilzen, mit knusprigen Croutons, Parmesan und Steinpilzpulver.",
+        "es": "Crema delicada de champiñones y boletus, con crutones crujientes, parmesano y polvo de boletus."
+      },
+      "suggested": ["provencal-salad"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": ["lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "chicken-kyiv",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-courses",
+      "title": {
+        "ua": "Котлета по-київськи",
+        "en": "Chicken Kyiv",
+        "de": "Hähnchen Kiew",
+        "es": "Pollo a la Kiev"
+      },
+      "description": {
+        "ua": "Хрустка золотиста котлета з соковитою серединою та ароматним маслом.",
+        "en": "A crispy golden cutlet with a juicy center and aromatic butter.",
+        "de": "Ein knusprig goldenes Schnitzel mit saftigem Kern und aromatischer Butter.",
+        "es": "Una chuleta dorada y crujiente con un centro jugoso y mantequilla aromática."
+      },
+      "price": 265,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Хрустка золотиста котлета з соковитою серединою, яка при розрізі наповнює тарілку ароматним маслом. Подається з ніжним гарніром.",
+        "en": "Crispy golden cutlet with a juicy center that fills the plate with aromatic butter when cut. Served with a delicate side dish.",
+        "de": "Knusprig goldenes Schnitzel mit saftigem Kern, das beim Anschneiden den Teller mit aromatischer Butter füllt. Serviert mit einer feinen Beilage.",
+        "es": "Chuleta dorada y crujiente con un centro jugoso que al cortarse llena el plato de mantequilla aromática. Se sirve con una guarnición delicada."
+      },
+      "suggested": ["provencal-salad"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": ["gluten", "lactose", "eggs"]
+    }
+  },
+  {
+    "slug": "pork-medallions-baked-potatoes",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-courses",
+      "title": {
+        "ua": "Свинні медальйони з печеною картоплею",
+        "en": "Pork medallions with baked potatoes",
+        "de": "Schweinemedaillons mit Bratkartoffeln",
+        "es": "Medallones de cerdo con patatas asadas"
+      },
+      "description": {
+        "ua": "Ніжні медальйони зі свинини, що подаються з печеною картоплею.",
+        "en": "Tender pork medallions served with baked potatoes.",
+        "de": "Zarte Schweinemedaillons serviert mit Bratkartoffeln.",
+        "es": "Tiernos medallones de cerdo servidos con patatas asadas."
+      },
+      "price": 310,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Свинні медальйони з печеною картоплею, доповнені соусом та мікрозеленню.",
+        "en": "Pork medallions with baked potatoes, complemented by sauce and microgreens.",
+        "de": "Schweinemedaillons mit Bratkartoffeln, ergänzt durch Sauce und Mikrogemüse.",
+        "es": "Medallones de cerdo con patatas asadas, complementados con salsa y microvegetales."
+      },
+      "suggested": ["red-wine-glass"],
+      "cookTimeMinutes": 25,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "fish-and-chips",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-courses",
+      "title": {
+        "ua": "Риба в клярі з картопляними діпами",
+        "en": "Battered fish with potato dippers",
+        "de": "Gebackener Fisch mit Kartoffel-Dippers",
+        "es": "Pescado rebozado con gajos de patata"
+      },
+      "description": {
+        "ua": "Панірована тіляпія у сухарях панко з хрусткими картопляними човниками.",
+        "en": "Breaded tilapia in panko breadcrumbs with crispy potato wedges.",
+        "de": "Panierte Tilapia in Panko-Paniermehl mit knusprigen Kartoffelspalten.",
+        "es": "Tilapia empanada en pan rallado panko con gajos de patata crujientes."
+      },
+      "price": 290,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Панірована риба тіляпія у сухарях панко, приготована у фритюрі, подається з хрусткими картопляними човниками та вершково-тартар соусом.",
+        "en": "Deep-fried breaded tilapia in panko breadcrumbs, served with crispy potato wedges and creamy tartar sauce.",
+        "de": "Frittierte panierte Tilapia in Panko-Paniermehl, serviert mit knusprigen Kartoffelspalten und cremiger Remouladensauce.",
+        "es": "Tilapia empanada en panko frita, servida con gajos de patata crujientes y salsa tártara cremosa."
+      },
+      "suggested": ["beer-lager", "white-wine-glass"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["fish", "gluten", "eggs", "lactose"]
+    }
+  },
+  {
+    "slug": "stewed-pork-baked-potatoes",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-courses",
+      "title": {
+        "ua": "Томлена свинина з картоплею печеною",
+        "en": "Slow-stewed pork with baked potatoes",
+        "de": "Langsam geschmortes Schweinefleisch mit Bratkartoffeln",
+        "es": "Cerdo estofado a fuego lento con patatas asadas"
+      },
+      "description": {
+        "ua": "Довго томлена соковита свинина у власному соусі з овочами.",
+        "en": "Long-stewed juicy pork in its own juice with vegetables.",
+        "de": "Lange geschmortes saftiges Schweinefleisch im eigenen Saft mit Gemüse.",
+        "es": "Cerdo jugoso estofado a fuego lento en su propio jugo con verduras."
+      },
+      "price": 270,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Довго томлена свинина з овочами та спеціями, м'яка і соковита, у власному насиченому соусі. Подається з гарячою запеченою картоплею.",
+        "en": "Slow-stewed pork with vegetables and spices, soft and juicy, in its own rich sauce. Served with hot baked potatoes.",
+        "de": "Langsam geschmortes Schweinefleisch mit Gemüse und Gewürzen, weich und saftig, in seiner eigenen reichhaltigen Sauce. Serviert mit heißen Bratkartoffeln.",
+        "es": "Cerdo estofado a fuego lento con verduras y especias, tierno y jugoso, en su propia salsa rica. Se sirve con patatas asadas calientes."
+      },
+      "suggested": ["dark-beer"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "beefsteak-mushroom-risotto",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-courses",
+      "title": {
+        "ua": "Біфштекс з грибним різото",
+        "en": "Beefsteak with mushroom risotto",
+        "de": "Beefsteak mit Pilzrisotto",
+        "es": "Bistec con risotto de champiñones"
+      },
+      "description": {
+        "ua": "Соковитий біфштекс з кремовим різото, грибами та пармезаном.",
+        "en": "Juicy beefsteak with creamy risotto, mushrooms, and parmesan.",
+        "de": "Saftiges Beefsteak mit cremigem Risotto, Pilzen und Parmesan.",
+        "es": "Bistec jugoso con risotto cremoso, champiñones y parmesano."
+      },
+      "price": 295,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Соковитий біфштекс з рум'яною скоринкою подається з ніжним кремовим різото з грибами, пармезаном і вершковим смаком.",
+        "en": "Juicy beefsteak with a golden crust served with delicate creamy risotto with mushrooms, parmesan, and a buttery flavor.",
+        "de": "Saftiges Beefsteak mit goldener Kruste, serviert mit zartem Cremerisotto mit Pilzen, Parmesan und Buttergeschmack.",
+        "es": "Bistec jugoso con costra dorada servido con un delicado risotto cremoso con champiñones, parmesano y sabor a mantequilla."
+      },
+      "suggested": ["red-wine-glass"],
+      "cookTimeMinutes": 25,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "mashed-potatoes",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Картопляне пюре",
+        "en": "Mashed potatoes",
+        "de": "Kartoffelpüree",
+        "es": "Puré de patatas"
+      },
+      "description": {
+        "ua": "Ніжне та вершкове картопляне пюре.",
+        "en": "Delicate and creamy mashed potatoes.",
+        "de": "Zartes und cremiges Kartoffelpüree.",
+        "es": "Puré de patatas suave y cremoso."
+      },
+      "price": 120,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Класичне картопляне пюре з додаванням вершкового масла.",
+        "en": "Classic mashed potatoes with the addition of butter.",
+        "de": "Klassisches Kartoffelpüree mit Butter.",
+        "es": "Puré de patatas clásico con mantequilla añadida."
+      },
+      "suggested": ["chicken-kyiv", "bbq-wings"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "baked-potatoes",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Картопля печена",
+        "en": "Baked potatoes",
+        "de": "Bratkartoffeln",
+        "es": "Patatas asadas"
+      },
+      "description": {
+        "ua": "Ароматна печена картопля зі спеціями та травами.",
+        "en": "Flavorful baked potatoes with spices and herbs.",
+        "de": "Aromatische Bratkartoffeln mit Gewürzen und Kräutern.",
+        "es": "Sabrosas patatas asadas con especias y hierbas."
+      },
+      "price": 120,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Скибочки картоплі, запечені до золотої скоринки з пряними травами.",
+        "en": "Potato slices baked to a golden crust with aromatic herbs.",
+        "de": "Goldbraun gebackene Kartoffelspalten mit aromatischen Kräutern.",
+        "es": "Rodajas de patata horneadas hasta obtener una costra dorada con hierbas aromáticas."
+      },
+      "suggested": ["pork-medallions-baked-potatoes", "stewed-pork-baked-potatoes"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "french-fries",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Картопля фрі",
+        "en": "French fries",
+        "de": "Pommes frites",
+        "es": "Patatas fritas"
+      },
+      "description": {
+        "ua": "Класична хрустка картопля фрі з сіллю.",
+        "en": "Classic crispy French fries with salt.",
+        "de": "Klassische knusprige Pommes frites mit Salz.",
+        "es": "Clásicas patatas fritas crujientes con sal."
+      },
+      "price": 120,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Золотиста картопля фрі, приготована у фритюрі.",
+        "en": "Golden French fries, deep-fried to perfection.",
+        "de": "Goldgelbe Pommes frites, im Frittierbad zubereitet.",
+        "es": "Patatas fritas doradas, preparadas en freidora."
+      },
+      "suggested": ["bbq-wings", "fish-and-chips"],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "french-fries-cheese-bath",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Картопля фрі з сирною ванною",
+        "en": "French fries with cheese bath",
+        "de": "Pommes frites mit Käsebad",
+        "es": "Patatas fritas con baño de queso"
+      },
+      "description": {
+        "ua": "Хрустка картопля фрі, щедро полита сирним соусом.",
+        "en": "Crispy French fries generously drizzled with cheese sauce.",
+        "de": "Knusprige Pommes frites, großzügig mit Käsesauce übergossen.",
+        "es": "Patatas fritas crujientes generosamente bañadas en salsa de queso."
+      },
+      "price": 140,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Порція картоплі фрі під насиченим теплим сирним соусом.",
+        "en": "A portion of French fries topped with rich warm cheese sauce.",
+        "de": "Eine Portion Pommes frites unter einer reichhaltigen warmen Käsesauce.",
+        "es": "Una porción de patatas fritas bajo una rica salsa de queso caliente."
+      },
+      "suggested": ["beer-lager"],
+      "cookTimeMinutes": 12,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "potato-dips",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Картопляні діпи",
+        "en": "Potato dips",
+        "de": "Kartoffel-Dips",
+        "es": "Gajos de patata"
+      },
+      "description": {
+        "ua": "Хрусткі картопляні човники, ідеальні для соусів.",
+        "en": "Crispy potato wedges, perfect for dipping.",
+        "de": "Knusprige Kartoffelspalten, ideal zum Dippen.",
+        "es": "Gajos de patata crujientes, perfectos para mojar."
+      },
+      "price": 120,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Картопляні скибочки особливої форми, обсмажені до хрусту.",
+        "en": "Specially shaped potato slices, fried until crispy.",
+        "de": "Besonders geformte Kartoffelscheiben, knusprig frittiert.",
+        "es": "Rodajas de patata con una forma especial, fritas hasta quedar crujientes."
+      },
+      "suggested": ["fish-and-chips", "bbq-wings"],
+      "cookTimeMinutes": 12,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "chicken-nuggets",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Курячі нагетси",
+        "en": "Chicken nuggets",
+        "de": "Hähnchen-Nuggets",
+        "es": "Nuggets de pollo"
+      },
+      "description": {
+        "ua": "Шматочки ніжного курячого філе в хрусткій паніровці.",
+        "en": "Tender chicken fillet pieces in a crispy breading.",
+        "de": "Zarte Hähnchenfiletstücke in knuspriger Panade.",
+        "es": "Trozos de tierno filete de pollo en un empanado crujiente."
+      },
+      "price": 150,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Обсмажені до золотистої скоринки курячі нагетси.",
+        "en": "Chicken nuggets fried to a golden crust.",
+        "de": "Goldgelb gebratene Hähnchen-Nuggets.",
+        "es": "Nuggets de pollo fritos hasta quedar dorados."
+      },
+      "suggested": ["french-fries", "orange-juice"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["gluten"]
+    }
+  },
+  {
+    "slug": "mozzarella-fritti",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Моцарелла фрі",
+        "en": "Fried mozzarella",
+        "de": "Frittierter Mozzarella",
+        "es": "Mozzarella frita"
+      },
+      "description": {
+        "ua": "Кульки тягучого сиру моцарелла у хрусткій паніровці.",
+        "en": "Melted mozzarella cheese balls in a crispy breading.",
+        "de": "Zartschmelzende Mozzarella-Bällchen in knuspriger Panade.",
+        "es": "Bolitas de queso mozzarella fundido en un empanado crujiente."
+      },
+      "price": 150,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Паніровані сирні кульки, обсмажені у фритюрі.",
+        "en": "Breaded cheese balls, deep-fried until golden.",
+        "de": "Panierte Käsebällchen, im Frittierbad zubereitet.",
+        "es": "Bolitas de queso empanadas, fritas en freidora."
+      },
+      "suggested": ["berry-cocktail", "white-wine-glass"],
+      "cookTimeMinutes": 12,
+      "portion": "1 порція",
+      "allergens": ["lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "mushroom-risotto",
+    "document": "item",
+    "data": {
+      "categorySlug": "side-dishes",
+      "title": {
+        "ua": "Різото грибне",
+        "en": "Mushroom risotto",
+        "de": "Pilzrisotto",
+        "es": "Risotto de champiñones"
+      },
+      "description": {
+        "ua": "Кремове італійське різото з насиченим смаком грибів.",
+        "en": "Creamy Italian risotto with a rich mushroom flavor.",
+        "de": "Cremiges italienisches Risotto mit intensivem Pilzgeschmack.",
+        "es": "Risotto italiano cremoso con un intenso sabor a champiñones."
+      },
+      "price": 210,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Кремове італійське різото з насиченим смаком грибів, курячим бульйоном, вершковою текстурою та пармезаном, подаємо з печерицями фрі.",
+        "en": "Creamy Italian risotto with a rich mushroom flavor, chicken broth, buttery texture, and parmesan, served with fried mushrooms.",
+        "de": "Cremiges italienisches Risotto mit intensivem Pilzgeschmack, Hühnerbrühe, buttriger Textur und Parmesan, serviert mit frittierten Champignons.",
+        "es": "Risotto italiano cremoso con intenso sabor a champiñones, caldo de pollo, textura mantecosa y parmesano, servido con champiñones fritos."
+      },
+      "suggested": ["white-wine-glass", "provencal-salad"],
+      "cookTimeMinutes": 25,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "cherry-strudel-ice-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "desserts",
+      "title": {
+        "ua": "Штрудель з вишнею та морозивом",
+        "en": "Cherry strudel with ice cream",
+        "de": "Kirschstrudel mit Eis",
+        "es": "Estrúdel de cereza con helado"
+      },
+      "description": {
+        "ua": "Класичний штрудель із соковитою вишнею та кулькою морозива.",
+        "en": "Classic strudel with juicy cherries and a scoop of ice cream.",
+        "de": "Klassischer Strudel mit saftigen Kirschen und einer Kugel Eis.",
+        "es": "Estrúdel clásico con cerezas jugosas y una bola de helado."
+      },
+      "price": 180,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Тонке тісто з вишневою начинкою, подається теплим із морозивом.",
+        "en": "Thin pastry with cherry filling, served warm with ice cream.",
+        "de": "Dünner Teig mit Kirschfüllung, warm serviert mit Eis.",
+        "es": "Masa fina con relleno de cereza, servida caliente con helado."
+      },
+      "suggested": ["coffee-latte", "tea-fruit"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["gluten", "lactose"]
+    }
+  },
+  {
+    "slug": "apple-strudel-ice-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "desserts",
+      "title": {
+        "ua": "Штрудель з яблуками та морозивом",
+        "en": "Apple strudel with ice cream",
+        "de": "Apfelstrudel mit Eis",
+        "es": "Estrúdel de manzana con helado"
+      },
+      "description": {
+        "ua": "Традиційний десерт із яблуками та ванільним морозивом.",
+        "en": "Traditional dessert with apples and vanilla ice cream.",
+        "de": "Traditionelles Dessert mit Äpfeln und Vanilleeis.",
+        "es": "Postre tradicional con manzanas y helado de vainilla."
+      },
+      "price": 160,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Ароматний яблучний штрудель, доповнений прохолодною кулькою морозива.",
+        "en": "Aromatic apple strudel complemented by a cool scoop of ice cream.",
+        "de": "Aaromatischer Apfelstrudel, ergänzt durch eine kühle Kugel Eis.",
+        "es": "Aromático estrúdel de manzana, complementado con una refrescante bola de helado."
+      },
+      "suggested": ["tea-black", "coffee-cappuccino"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["gluten", "lactose"]
+    }
+  },
+  {
+    "slug": "chocolate-fondant",
+    "document": "item",
+    "data": {
+      "categorySlug": "desserts",
+      "title": {
+        "ua": "Шоколадний фондан",
+        "en": "Chocolate fondant",
+        "de": "Schokoladenfondant",
+        "es": "Fondant de chocolate"
+      },
+      "description": {
+        "ua": "Гарячий шоколадний десерт із текучою серцевиною.",
+        "en": "Hot chocolate dessert with a molten core.",
+        "de": "Heißes Schokoladendessert mit flüssigem Kern.",
+        "es": "Postre de chocolate caliente con un corazón líquido."
+      },
+      "price": 180,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Шоколадний фондан із текучою серцевиною, подається гарячим у поєднанні з кулькою ванільного морозива.",
+        "en": "Chocolate fondant with a molten core, served hot with a scoop of vanilla ice cream.",
+        "de": "Schokoladenfondant mit flüssigem Kern, heiß serviert in Kombination mit einer Kugel Vanilleeis.",
+        "es": "Fondant de chocolate con centro fundido, servido caliente con una bola de helado de vainilla."
+      },
+      "suggested": ["coffee-espresso"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": ["lactose", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "syrnyky-jam-sour-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "desserts",
+      "title": {
+        "ua": "Сирники з джемом та сметаною",
+        "en": "Syrnyky with jam and sour cream",
+        "de": "Syrnyky mit Marmelade und saurer Sahne",
+        "es": "Syrnyky con mermelada y crema agria"
+      },
+      "description": {
+        "ua": "Ніжні домашні сирники з абрикосовим джемом.",
+        "en": "Tender homemade cottage cheese pancakes with apricot jam.",
+        "de": "Zarte hausgemachte Quarkpfannkuchen mit Aprikosenmarmelade.",
+        "es": "Tiernos panqueques de requesón caseros con mermelada de albaricoque."
+      },
+      "price": 200,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Сирники з ніжного сиру, обсмажені до рум'яної скоринки, подаємо з абрикосовим джемом, сметаною та посипаємо цукровою пудрою.",
+        "en": "Cottage cheese pancakes made of delicate curd, fried to a golden crust, served with apricot jam, sour cream, and dusted with powdered sugar.",
+        "de": "Quarkpfannkuchen aus feinem Quark, goldbraun gebraten, serviert mit Aprikosenmarmelade, saurer Sahne und mit Puderzucker bestäubt.",
+        "es": "Panqueques de requesón hechos de cuajada delicada, fritos hasta dorar, servidos con mermelada de albaricoque, crema agria y espolvoreados con azúcar glas."
+      },
+      "suggested": ["tea-herbal"],
+      "cookTimeMinutes": 20,
+      "portion": "1 порція",
+      "allergens": ["lactose", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "poppy-pancakes-ice-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "desserts",
+      "title": {
+        "ua": "Макові млинці з морозивом",
+        "en": "Poppy seed pancakes with ice cream",
+        "de": "Mohnpfannkuchen mit Eis",
+        "es": "Panqueques de amapola con helado"
+      },
+      "description": {
+        "ua": "Теплі макові млинці, що подаються з морозивом та джемом.",
+        "en": "Warm poppy seed pancakes served with ice cream and jam.",
+        "de": "Warme Mohnpfannkuchen, serviert mit Eis und Marmelade.",
+        "es": "Panqueques de amapola calientes servidos con helado y mermelada."
+      },
+      "price": 180,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Теплі млинці з ніжною маковою начинкою, подаються з кулькою морозива, джемом та цукровою пудрою.",
+        "en": "Warm pancakes with a delicate poppy seed filling, served with a scoop of ice cream, jam, and powdered sugar.",
+        "de": "Warme Pfannkuchen mit feiner Mohnfüllung, serviert mit einer Kugel Eis, Marmelade und Puderzucker.",
+        "es": "Panqueques calientes con un delicado relleno de semillas de amapola, servidos con una bola de helado, mermelada y azúcar glas."
+      },
+      "suggested": ["coffee-latte"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["lactose", "eggs", "gluten"]
+    }
+  },
+  {
+    "slug": "sauce-caesar",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус цезар 25г",
+        "en": "Caesar sauce 25g",
+        "de": "Caesar-Sauce 25g",
+        "es": "Salsa César 25g"
+      },
+      "description": {
+        "ua": "Класичний соус для салату Цезар.",
+        "en": "Classic dressing for Caesar salad.",
+        "de": "Klassisches Dressing für Caesar Salad.",
+        "es": "Salsa clásica para ensalada César."
+      },
+      "price": 30,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус цезар, порція 25г.",
+        "en": "Caesar sauce, 25g portion.",
+        "de": "Caesar-Sauce, 25g Portion.",
+        "es": "Salsa César, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["eggs", "lactose", "mustard"]
+    }
+  },
+  {
+    "slug": "sauce-lemon-thyme",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус лимонно-чебрецевий 25г",
+        "en": "Lemon-thyme sauce 25g",
+        "de": "Zitronen-Thymian-Sauce 25g",
+        "es": "Salsa de limón y tomillo 25g"
+      },
+      "description": {
+        "ua": "Освіжаючий соус із нотками лимона та чебрецю.",
+        "en": "Refreshing sauce with hints of lemon and thyme.",
+        "de": "Erfrischende Sauce mit Noten von Zitrone und Thymian.",
+        "es": "Salsa refrescante con notas de limón y tomillo."
+      },
+      "price": 15,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус лимонно-чебрецевий, порція 25г.",
+        "en": "Lemon-thyme sauce, 25g portion.",
+        "de": "Zitronen-Thymian-Sauce, 25g Portion.",
+        "es": "Salsa de limón y tomillo, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "sauce-balsamic",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус бальзамік 25г",
+        "en": "Balsamic sauce 25g",
+        "de": "Balsamico-Sauce 25g",
+        "es": "Salsa balsámica 25g"
+      },
+      "description": {
+        "ua": "Густий та пікантний бальзамічний соус.",
+        "en": "Thick and savory balsamic sauce.",
+        "de": "Dickflüssige und pikante Balsamico-Sauce.",
+        "es": "Salsa balsámica espesa y sabrosa."
+      },
+      "price": 15,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус бальзамік, порція 25г.",
+        "en": "Balsamic sauce, 25g portion.",
+        "de": "Balsamico-Sauce, 25g Portion.",
+        "es": "Salsa balsámica, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "add-on-lemon",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Лимон 15г",
+        "en": "Lemon 15g",
+        "de": "Zitrone 15g",
+        "es": "Limón 15g"
+      },
+      "description": {
+        "ua": "Скибочка свіжого лимона.",
+        "en": "A slice of fresh lemon.",
+        "de": "Eine Scheibe frische Zitrone.",
+        "es": "Una rodaja de limón fresco."
+      },
+      "price": 10,
+      "labels": ["15г"],
+      "fullDescription": {
+        "ua": "Лимон, порція 15г.",
+        "en": "Lemon, 15g portion.",
+        "de": "Zitrone, 15g Portion.",
+        "es": "Limón, porción de 15g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "15г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "add-on-chicken",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Курка 50г",
+        "en": "Chicken 50g",
+        "de": "Hähnchen 50g",
+        "es": "Pollo 50g"
+      },
+      "description": {
+        "ua": "Додаткова порція готового курячого філе.",
+        "en": "An extra portion of cooked chicken fillet.",
+        "de": "Eine zusätzliche Portion gegartes Hähnchenfilet.",
+        "es": "Una porción extra de filete de pollo cocinado."
+      },
+      "price": 50,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Курка, порція 50г.",
+        "en": "Chicken, 50g portion.",
+        "de": "Hähnchen, 50g Portion.",
+        "es": "Pollo, porción de 50g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 5,
+      "portion": "50г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "add-on-cherry-tomato",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Томат черрі 50г",
+        "en": "Cherry tomato 50g",
+        "de": "Kirschtomate 50g",
+        "es": "Tomate cherry 50g"
+      },
+      "description": {
+        "ua": "Свіжі томати черрі.",
+        "en": "Fresh cherry tomatoes.",
+        "de": "Frische Kirschtomaten.",
+        "es": "Tomates cherry frescos."
+      },
+      "price": 15,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Томат черрі, порція 50г.",
+        "en": "Cherry tomato, 50g portion.",
+        "de": "Kirschtomate, 50g Portion.",
+        "es": "Tomate cherry, porción de 50g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "50г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "sauce-cranberry",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус журавлинний 25г",
+        "en": "Cranberry sauce 25g",
+        "de": "Preiselbeersauce 25g",
+        "es": "Salsa de arándanos 25g"
+      },
+      "description": {
+        "ua": "Кисло-солодкий соус із журавлини.",
+        "en": "Sweet and sour cranberry sauce.",
+        "de": "Süß-saure Preiselbeersauce.",
+        "es": "Salsa de arándanos agridulce."
+      },
+      "price": 25,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус журавлинний, порція 25г.",
+        "en": "Cranberry sauce, 25g portion.",
+        "de": "Preiselbeersauce, 25g Portion.",
+        "es": "Salsa de arándanos, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "add-on-sour-cream",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Сметана 25г",
+        "en": "Sour cream 25g",
+        "de": "Sauerrahm 25g",
+        "es": "Crema agria 25g"
+      },
+      "description": {
+        "ua": "Порція свіжої сметани.",
+        "en": "A portion of fresh sour cream.",
+        "de": "Eine Portion frischer Sauerrahm.",
+        "es": "Una porción de crema agria fresca."
+      },
+      "price": 10,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Сметана, порція 25г.",
+        "en": "Sour cream, 25g portion.",
+        "de": "Sauerrahm, 25g Portion.",
+        "es": "Crema agria, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "add-on-butter",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Масло вершкове 25г",
+        "en": "Butter 25g",
+        "de": "Butter 25g",
+        "es": "Mantequilla 25g"
+      },
+      "description": {
+        "ua": "Порція натурального вершкового масла.",
+        "en": "A portion of natural butter.",
+        "de": "Eine Portion natürliche Butter.",
+        "es": "Una porción de mantequilla natural."
+      },
+      "price": 15,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Масло вершкове, порція 25г.",
+        "en": "Butter, 25g portion.",
+        "de": "Butter, 25g Portion.",
+        "es": "Mantequilla, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "add-on-avocado",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Авокадо 25г",
+        "en": "Avocado 25g",
+        "de": "Avocado 25g",
+        "es": "Aguacate 25g"
+      },
+      "description": {
+        "ua": "Скибочки стиглого авокадо.",
+        "en": "Slices of ripe avocado.",
+        "de": "Scheiben reifer Avocado.",
+        "es": "Rodajas de aguacate maduro."
+      },
+      "price": 30,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Авокадо, порція 25г.",
+        "en": "Avocado, 25g portion.",
+        "de": "Avocado, 25g Portion.",
+        "es": "Aguacate, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "add-on-mayonnaise",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Майонез 25г",
+        "en": "Mayonnaise 25g",
+        "de": "Mayonnaise 25g",
+        "es": "Mayonesa 25g"
+      },
+      "description": {
+        "ua": "Порція класичного майонезу.",
+        "en": "A portion of classic mayonnaise.",
+        "de": "Eine Portion klassische Mayonnaise.",
+        "es": "Una porción de mayonesa clásica."
+      },
+      "price": 10,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Майонез, порція 25г.",
+        "en": "Mayonnaise, 25g portion.",
+        "de": "Mayonnaise, 25g Portion.",
+        "es": "Mayonesa, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["eggs"]
+    }
+  },
+  {
+    "slug": "add-on-mustard",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Гірчиця 25г",
+        "en": "Mustard 25g",
+        "de": "Senf 25g",
+        "es": "Mostaza 25g"
+      },
+      "description": {
+        "ua": "Пікантна гірчиця.",
+        "en": "Savory mustard.",
+        "de": "Pikanter Senf.",
+        "es": "Mostaza sabrosa."
+      },
+      "price": 20,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Гірчиця, порція 25г.",
+        "en": "Mustard, 25g portion.",
+        "de": "Senf, 25g Portion.",
+        "es": "Mostaza, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["mustard"]
+    }
+  },
+  {
+    "slug": "add-on-salmon",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Лосось 50г",
+        "en": "Salmon 50g",
+        "de": "Lachs 50g",
+        "es": "Salmón 50g"
+      },
+      "description": {
+        "ua": "Додаткова порція слабосолоного лосося.",
+        "en": "An extra portion of lightly salted salmon.",
+        "de": "Eine zusätzliche Portion leicht gesalzener Lachs.",
+        "es": "Una porción extra de salmón ligeramente salado."
+      },
+      "price": 90,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Лосось, порція 50г.",
+        "en": "Salmon, 50g portion.",
+        "de": "Lachs, 50g Portion.",
+        "es": "Salmón, porción de 50g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 2,
+      "portion": "50г",
+      "allergens": ["fish"]
+    }
+  },
+  {
+    "slug": "sauce-cheese-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус сирний 25г",
+        "en": "Cheese sauce 25g",
+        "de": "Käsesauce 25g",
+        "es": "Salsa de queso 25g"
+      },
+      "description": {
+        "ua": "Насичений сирний соус.",
+        "en": "Rich cheese sauce.",
+        "de": "Reichhaltige Käsesauce.",
+        "es": "Salsa de queso rica."
+      },
+      "price": 25,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус сирний, порція 25г.",
+        "en": "Cheese sauce, 25g portion.",
+        "de": "Käsesauce, 25g Portion.",
+        "es": "Salsa de queso, porción de 25g."
+      },
+      "suggested": ["french-fries", "potato-dips"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "camembert-cheese-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Сир Камамбер 25г",
+        "en": "Camembert cheese 25g",
+        "de": "Camembert Käse 25g",
+        "es": "Queso Camembert 25g"
+      },
+      "description": {
+        "ua": "Порція ніжного сиру Камамбер.",
+        "en": "A portion of delicate Camembert cheese.",
+        "de": "Eine Portion zarter Camembert-Käse.",
+        "es": "Una porción de delicado queso Camembert."
+      },
+      "price": 35,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Сир Камамбер, порція 25г.",
+        "en": "Camembert cheese, 25g portion.",
+        "de": "Camembert Käse, 25g Portion.",
+        "es": "Queso Camembert, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "lettuce-leaves-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Листя салату 25г",
+        "en": "Lettuce leaves 25g",
+        "de": "Salatblätter 25g",
+        "es": "Hojas de lechuga 25g"
+      },
+      "description": {
+        "ua": "Свіже листя салату.",
+        "en": "Fresh lettuce leaves.",
+        "de": "Frische Salatblätter.",
+        "es": "Hojas de lechuga frescas."
+      },
+      "price": 15,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Листя салату, порція 25г.",
+        "en": "Lettuce leaves, 25g portion.",
+        "de": "Salatblätter, 25g Portion.",
+        "es": "Hojas de lechuga, porción de 25g."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "ketchup-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Кетчуп 25г",
+        "en": "Ketchup 25g",
+        "de": "Ketchup 25g",
+        "es": "Ketchup 25g"
+      },
+      "description": {
+        "ua": "Томатний кетчуп.",
+        "en": "Tomato ketchup.",
+        "de": "Tomatenketchup.",
+        "es": "Ketchup de tomate."
+      },
+      "price": 20,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Кетчуп, порція 25г.",
+        "en": "Ketchup, 25g portion.",
+        "de": "Ketchup, 25g Portion.",
+        "es": "Ketchup, porción de 25g."
+      },
+      "suggested": ["french-fries", "chicken-nuggets"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "bread-75g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Хліб 75г",
+        "en": "Bread 75g",
+        "de": "Brot 75g",
+        "es": "Pan 75g"
+      },
+      "description": {
+        "ua": "Порція свіжого хліба.",
+        "en": "A portion of fresh bread.",
+        "de": "Eine Portion frisches Brot.",
+        "es": "Una porción de pan fresco."
+      },
+      "price": 15,
+      "labels": ["75г"],
+      "fullDescription": {
+        "ua": "Хліб, порція 75г.",
+        "en": "Bread, 75g portion.",
+        "de": "Brot, 75g Portion.",
+        "es": "Pan, porción de 75g."
+      },
+      "suggested": ["chicken-bouillon", "mushroom-cream-soup"],
+      "cookTimeMinutes": 1,
+      "portion": "75г",
+      "allergens": ["gluten"]
+    }
+  },
+  {
+    "slug": "white-yogurt-50g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Йогурт білий 50г",
+        "en": "White yogurt 50g",
+        "de": "Weißer Joghurt 50g",
+        "es": "Yogur blanco 50g"
+      },
+      "description": {
+        "ua": "Натуральний білий йогурт.",
+        "en": "Natural white yogurt.",
+        "de": "Natürlicher weißer Joghurt.",
+        "es": "Yogur blanco natural."
+      },
+      "price": 25,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Йогурт білий, порція 50г.",
+        "en": "White yogurt, 50g portion.",
+        "de": "Weißer Joghurt, 50g Portion.",
+        "es": "Yogur blanco, porción de 50g."
+      },
+      "suggested": ["syrnyky-jam-sour-cream"],
+      "cookTimeMinutes": 1,
+      "portion": "50г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "shrimps-50g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Креветки 50г",
+        "en": "Shrimps 50g",
+        "de": "Garnelen 50g",
+        "es": "Camarones 50g"
+      },
+      "description": {
+        "ua": "Додаткова порція креветок.",
+        "en": "An extra portion of shrimps.",
+        "de": "Eine zusätzliche Portion Garnelen.",
+        "es": "Una porción extra de camarones."
+      },
+      "price": 90,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Креветки, порція 50г.",
+        "en": "Shrimps, 50g portion.",
+        "de": "Garnelen, 50g Portion.",
+        "es": "Camarones, porción de 50g."
+      },
+      "suggested": ["caesar-shrimp"],
+      "cookTimeMinutes": 5,
+      "portion": "50г",
+      "allergens": ["crustaceans"]
+    }
+  },
+  {
+    "slug": "parmesan-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Пармезан 25г",
+        "en": "Parmesan 25g",
+        "de": "Parmesan 25g",
+        "es": "Parmesano 25g"
+      },
+      "description": {
+        "ua": "Тертий сир пармезан.",
+        "en": "Grated Parmesan cheese.",
+        "de": "Geriebener Parmesan-Käse.",
+        "es": "Queso parmesano rallado."
+      },
+      "price": 45,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Пармезан, порція 25г.",
+        "en": "Parmesan, 25g portion.",
+        "de": "Parmesan, 25g Portion.",
+        "es": "Parmesano, porción de 25g."
+      },
+      "suggested": ["mushroom-risotto", "caesar-chicken"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "sauce-sweet-sour-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус кисло-солодкий 25г",
+        "en": "Sweet and sour sauce 25g",
+        "de": "Süß-sauer-Sauce 25g",
+        "es": "Salsa agridulce 25g"
+      },
+      "description": {
+        "ua": "Класичний кисло-солодкий соус.",
+        "en": "Classic sweet and sour sauce.",
+        "de": "Klassische Süß-sauer-Sauce.",
+        "es": "Salsa agridulce clásica."
+      },
+      "price": 25,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус кисло-солодкий, порція 25г.",
+        "en": "Sweet and sour sauce, 25g portion.",
+        "de": "Süß-sauer-Sauce, 25g Portion.",
+        "es": "Salsa agridulce, porción de 25g."
+      },
+      "suggested": ["chicken-nuggets"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "lime-15g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Лайм 15г",
+        "en": "Lime 15g",
+        "de": "Limette 15g",
+        "es": "Lima 15g"
+      },
+      "description": {
+        "ua": "Свіжий лайм.",
+        "en": "Fresh lime.",
+        "de": "Frische Limette.",
+        "es": "Lima fresca."
+      },
+      "price": 13,
+      "labels": ["15г"],
+      "fullDescription": {
+        "ua": "Лайм, порція 15г.",
+        "en": "Lime, 15g portion.",
+        "de": "Limette, 15g Portion.",
+        "es": "Lima, porción de 15g."
+      },
+      "suggested": ["fish-and-chips"],
+      "cookTimeMinutes": 1,
+      "portion": "15г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "sauce-tartar-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус тартар 25г",
+        "en": "Tartar sauce 25g",
+        "de": "Tartar-Sauce 25g",
+        "es": "Salsa tártara 25g"
+      },
+      "description": {
+        "ua": "Ніжний соус тартар.",
+        "en": "Delicate tartar sauce.",
+        "de": "Zarte Tartar-Sauce.",
+        "es": "Delicada salsa tártara."
+      },
+      "price": 25,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус тартар, порція 25г.",
+        "en": "Tartar sauce, 25g portion.",
+        "de": "Tartar-Sauce, 25g Portion.",
+        "es": "Salsa tártara, porción de 25g."
+      },
+      "suggested": ["fish-and-chips"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": ["eggs", "mustard"]
+    }
+  },
+  {
+    "slug": "sauce-satsebeli-25g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Соус Сацебелі 25г",
+        "en": "Satsebeli sauce 25g",
+        "de": "Satsebeli-Sauce 25g",
+        "es": "Salsa Satsebeli 25g"
+      },
+      "description": {
+        "ua": "Пряний грузинський соус.",
+        "en": "Spicy Georgian sauce.",
+        "de": "Würzige georgische Sauce.",
+        "es": "Salsa georgiana picante."
+      },
+      "price": 25,
+      "labels": ["25г"],
+      "fullDescription": {
+        "ua": "Соус Сацебелі, порція 25г.",
+        "en": "Satsebeli sauce, 25g portion.",
+        "de": "Satsebeli-Sauce, 25g Portion.",
+        "es": "Salsa Satsebeli, porción de 25g."
+      },
+      "suggested": ["pork-medallions-baked-potatoes", "bbq-wings"],
+      "cookTimeMinutes": 1,
+      "portion": "25г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "egg-1pc",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Яйце",
+        "en": "Egg",
+        "de": "Ei",
+        "es": "Huevo"
+      },
+      "description": {
+        "ua": "Додаткове варене яйце.",
+        "en": "An extra boiled egg.",
+        "de": "Ein zusätzliches gekochtes Ei.",
+        "es": "Un huevo cocido extra."
+      },
+      "price": 10,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Яйце куряче, 1 шт.",
+        "en": "Chicken egg, 1 pc.",
+        "de": "Hühnerei, 1 Stk.",
+        "es": "Huevo de gallina, 1 unidad."
+      },
+      "suggested": ["chicken-bouillon", "tuna-salad"],
+      "cookTimeMinutes": 5,
+      "portion": "1 шт",
+      "allergens": ["eggs"]
+    }
+  },
+  {
+    "slug": "ice-cream-50g",
+    "document": "item",
+    "data": {
+      "categorySlug": "add-ons",
+      "title": {
+        "ua": "Морозиво 50г",
+        "en": "Ice cream 50g",
+        "de": "Eiscreme 50g",
+        "es": "Helado 50g"
+      },
+      "description": {
+        "ua": "Кулька вершкового морозива.",
+        "en": "A scoop of creamy ice cream.",
+        "de": "Eine Kugel cremiges Eis.",
+        "es": "Una bola de helado cremoso."
+      },
+      "price": 25,
+      "labels": ["50г"],
+      "fullDescription": {
+        "ua": "Морозиво, порція 50г.",
+        "en": "Ice cream, 50g portion.",
+        "de": "Eiscreme, 50g Portion.",
+        "es": "Helado, porción de 50g."
+      },
+      "suggested": ["apple-strudel-ice-cream", "chocolate-fondant"],
+      "cookTimeMinutes": 1,
+      "portion": "50г",
+      "allergens": ["lactose"]
+    }
+  }
+  
 ]

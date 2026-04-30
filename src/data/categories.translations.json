@@ -119,5 +119,131 @@
 				"sv": "Varma och kalla kaffedrycker."
 			}
 		}
-	}
+	},
+	{
+    "slug": "snacks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Закуски",
+            "en": "Snacks",
+            "de": "Snacks",
+            "es": "Snacks"
+        },
+        "description": {
+            "ua": "Гарячі та холодні закуски на будь-який смак.",
+            "en": "Hot and cold snacks for every taste.",
+            "de": "Heiße und kalte Snacks für jeden Geschmack.",
+            "es": "Aperitivos fríos y calientes para todos los gustos."
+        }
+    }
+},
+{
+    "slug": "salads",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Салати",
+            "en": "Salads",
+            "de": "Salate",
+            "es": "Ensaladas"
+        },
+        "description": {
+            "ua": "Свіжі та смачні салати з сезонними інгредієнтами.",
+            "en": "Fresh and flavorful salads with seasonal ingredients.",
+            "de": "Frische und geschmackvolle Salate mit saisonalen Zutaten.",
+            "es": "Ensaladas frescas y sabrosas con ingredientes de temporada."
+        }
+    }
+},
+{
+    "slug": "soups",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Супи",
+            "en": "Soups",
+            "de": "Suppen",
+            "es": "Sopas"
+        },
+        "description": {
+            "ua": "Ситні та зігріваючі перші страви, приготовані зі свіжих інгредієнтів.",
+            "en": "Hearty and warming first courses made with fresh ingredients.",
+            "de": "Herzhafte und wärmende erste Gänge aus frischen Zutaten.",
+            "es": "Primeros platos abundantes y reconfortantes elaborados con ingredientes frescos."
+        }
+    }
+},
+{
+    "slug": "main-courses",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Основні страви",
+            "en": "Main Courses",
+            "de": "Hauptgerichte",
+            "es": "Platos principales"
+        },
+        "description": {
+            "ua": "Смачні та ситні основні страви для ідеального обіду чи вечері.",
+            "en": "Delicious and satisfying main dishes for a perfect meal.",
+            "de": "Köstliche und sättigende Hauptgerichte für eine perfekte Mahlzeit.",
+            "es": "Platos principales deliciosos y satisfactorios para una comida perfecta."
+        }
+    }
+},
+{
+    "slug": "side-dishes",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Гарніри",
+            "en": "Side Dishes",
+            "de": "Beilagen",
+            "es": "Guarniciones"
+        },
+        "description": {
+            "ua": "Ідеальне доповнення до ваших улюблених основних страв.",
+            "en": "The perfect accompaniment to your favorite main courses.",
+            "de": "Die perfekte Ergänzung zu Ihren Lieblingshauptgerichten.",
+            "es": "El acompañamiento perfecto para sus platos principales favoritos."
+        }
+    }
+},
+{
+    "slug": "desserts",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Десерти",
+            "en": "Desserts",
+            "de": "Desserts",
+            "es": "Postres"
+        },
+        "description": {
+            "ua": "Солодкі частування та делікатеси для ідеального завершення вашої трапези.",
+            "en": "Sweet treats and delicacies to complete your meal.",
+            "de": "Süße Leckereien und Köstlichkeiten für den perfekten Abschluss Ihrer Mahlzeit.",
+            "es": "Dulces y delicias para completar tu comida."
+        }
+    }
+},
+{
+    "slug": "add-ons",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Додатки",
+            "en": "Add-ons",
+            "de": "Extras",
+            "es": "Adicionales"
+        },
+        "description": {
+            "ua": "Додаткові топінги та соуси, що ідеально доповнять вашу страву.",
+            "en": "Extra toppings and sauces to complement your meal.",
+            "de": "Zusätzliche Toppings und Saucen, die Ihre Mahlzeit perfekt ergänzen.",
+            "es": "Toppings y salsas adicionales para complementar tu comida."
+        }
+    }
+}
 ]
