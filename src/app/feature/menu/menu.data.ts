@@ -32,7 +32,7 @@ interface RawItemRecord {
 	fullDescription: string;
 	suggested: string[];
 	cookTimeMinutes: number | null;
-	caloriesKcal: number | null;
+	caloriesKcal?: number | null;
 	portion: string | null;
 	allergens: string[];
 }
@@ -210,7 +210,7 @@ function _toRawMenuItem(item: RawItemRecord): RawMenuItem {
 				...translatedLabel,
 			};
 		}),
-		image: `/item/${item.slug}.webp`,
+		image: `/assets/item/${item.slug}.webp`,
 		fullDescription: {
 			ua: itemTranslations?.fullDescription?.ua ?? item.fullDescription,
 			en: itemTranslations?.fullDescription?.en ?? item.fullDescription,
@@ -218,7 +218,7 @@ function _toRawMenuItem(item: RawItemRecord): RawMenuItem {
 		},
 		suggested: item.suggested,
 		cookTimeMinutes: item.cookTimeMinutes,
-		caloriesKcal: item.caloriesKcal,
+		caloriesKcal: item.caloriesKcal ?? null,
 		portion: item.portion,
 		allergens: item.allergens,
 	};
