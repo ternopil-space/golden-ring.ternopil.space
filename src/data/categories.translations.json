@@ -245,5 +245,167 @@
             "es": "Toppings y salsas adicionales para complementar tu comida."
         }
     }
+},
+{
+    "slug": "tea",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Чай",
+            "en": "Tea",
+            "de": "Tee",
+            "es": "Té"
+        },
+        "description": {
+            "ua": "Широкий вибір зігріваючих трав'яних, чорних та зелених чаїв.",
+            "en": "A wide selection of warming herbal, black, and green teas.",
+            "de": "Eine große Auswahl an wärmenden Kräuter-, Schwarz- und Grüntees.",
+            "es": "Una amplia selección de reconfortantes tés de hierbas, negros y verdes."
+        }
+    }
+},
+{
+    "slug": "cold-drinks",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Холодні напої",
+            "en": "Cold Drinks",
+            "de": "Kalte Getränke",
+            "es": "Bebidas frías"
+        },
+        "description": {
+            "ua": "Освіжаючі напої та охолоджена вода, щоб втамувати спрагу.",
+            "en": "Refreshing beverages and chilled drinks to quench your thirst.",
+            "de": "Erfrischende Getränke und gekühlte Drinks, um Ihren Durst zu löschen.",
+            "es": "Bebidas refrescantes y bebidas frías para calmar la sed."
+        }
+    }
+},
+{
+    "slug": "non-alcoholic-cocktails",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Безалкогольні коктейлі",
+            "en": "Non-alcoholic Cocktails",
+            "de": "Alkoholfreie Cocktails",
+            "es": "Cócteles sin alcohol"
+        },
+        "description": {
+            "ua": "Вишукані безалкогольні мікси та освіжаючі моктейлі.",
+            "en": "Exquisite alcohol-free blends and refreshing mocktails.",
+            "de": "Exquisite alkoholfreie Mischungen und erfrischende Mocktails.",
+            "es": "Exquisitas mezclas sin alcohol y refrescantes mocktails."
+        }
+    }
+},
+{
+    "slug": "drink-add-ons",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Додатки до напоїв",
+            "en": "Drink Add-ons",
+            "de": "Getränke-Extras",
+            "es": "Complementos para bebidas"
+        },
+        "description": {
+            "ua": "Сиропи, альтернативне молоко та додаткові топінги для ваших напоїв.",
+            "en": "Syrups, milk alternatives, and extra toppings for your beverages.",
+            "de": "Sirupe, Milchalternativen und zusätzliche Toppings für Ihre Getränke.",
+            "es": "Jarabes, alternativas de leche y coberturas adicionales para sus bebidas."
+        }
+    }
+},
+{
+    "slug": "appetizers",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Закуски",
+            "en": "Appetizers",
+            "de": "Vorspeisen",
+            "es": "Aperitivos"
+        },
+        "description": {
+            "ua": "Різноманітні невеликі тарілки та легкі закуски, щоб почати вашу трапезу.",
+            "en": "A variety of small dishes and light bites to start your meal.",
+            "de": "Eine Auswahl an kleinen Gerichten und leichten Häppchen für den Beginn Ihrer Mahlzeit.",
+            "es": "Una variedad de platos pequeños y bocados ligeros para comenzar su comida."
+        }
+    }
+},
+{
+    "slug": "first-courses",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Перші страви",
+            "en": "First Courses",
+            "de": "Suppen",
+            "es": "Primeros platos"
+        },
+        "description": {
+            "ua": "Гарячі та поживні супи та бульйони, що готуються щодня.",
+            "en": "Warm and nourishing soups and broths prepared daily.",
+            "de": "Warme und nahrhafte Suppen und Eintöpfe, täglich frisch zubereitet.",
+            "es": "Sopas y caldos calientes y nutritivos preparados diariamente."
+        }
+    }
+},
+{
+    "slug": "hot-appetizers",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Гарячі закуски",
+            "en": "Hot Appetizers",
+            "de": "Warme Vorspeisen",
+            "es": "Aperitivos calientes"
+        },
+        "description": {
+            "ua": "Смачні гарячі закуски та пікантні страви на грилі.",
+            "en": "Delicious warm starters and savory grilled bites.",
+            "de": "Köstliche warme Vorspeisen und herzhafte Grillgerichte.",
+            "es": "Deliciosos entrantes calientes y sabrosos bocados a la parrilla."
+        }
+    }
+},
+{
+    "slug": "main-dishes",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Основні страви",
+            "en": "Main Dishes",
+            "de": "Hauptgerichte",
+            "es": "Platos principales"
+        },
+        "description": {
+            "ua": "Поживні та смачні основні страви, подані з турботою.",
+            "en": "Hearty and delicious main plates served with care.",
+            "de": "Herzhafte und köstliche Hauptgerichte, mit Sorgfalt serviert.",
+            "es": "Platos principales sustanciosos y deliciosos servidos con esmero."
+        }
+    }
+},
+{
+    "slug": "salads",
+    "document": "itemCategory",
+    "data": {
+        "name": {
+            "ua": "Салати",
+            "en": "Salads",
+            "de": "Salate",
+            "es": "Ensaladas"
+        },
+        "description": {
+            "ua": "Добірка свіжих, хрустких салатів з яскравими сезонними овочами.",
+            "en": "A selection of fresh, crisp salads featuring vibrant seasonal vegetables.",
+            "de": "Eine Auswahl an frischen, knackigen Salaten mit kräftigem saisonalem Gemüse.",
+            "es": "Una selección de ensaladas frescas y crujientes con vibrantes verduras de temporada."
+        }
+    }
 }
 ]

@@ -8,7 +8,7 @@
 	{
 		"name": "Coffee",
 		"description": "Hot and cold coffee drinks.",
-		"section": "drinks",
+		"section": "bar",
 		"slug": "coffee"
 	},
 	{
@@ -52,5 +52,59 @@
     "description": "Extra toppings and sauces to complement your meal.",
     "section": "food",
     "slug": "add-ons"
+},
+{
+    "name": "Tea",
+    "description": "A wide selection of warming herbal, black, and green teas.",
+    "section": "bar",
+    "slug": "tea"
+},
+{
+    "name": "Cold Drinks",
+    "description": "Refreshing beverages and chilled drinks to quench your thirst.",
+    "section": "bar",
+    "slug": "cold-drinks"
+},
+{
+    "name": "Non-alcoholic Cocktails",
+    "description": "Exquisite alcohol-free blends and refreshing mocktails.",
+    "section": "bar",
+    "slug": "non-alcoholic-cocktails"
+},
+{
+    "name": "Drink Add-ons",
+    "description": "Syrups, milk alternatives, and extra toppings for your beverages.",
+    "section": "bar",
+    "slug": "drink-add-ons"
+},
+{
+    "name": "Appetizers",
+    "description": "A variety of small dishes and light bites to start your meal.",
+    "section": "banquet_menu",
+    "slug": "appetizers"
+},
+{
+    "name": "First Courses",
+    "description": "Warm and nourishing soups and broths prepared daily.",
+    "section": "banquet_menu",
+    "slug": "first-courses"
+},
+{
+    "name": "Hot Appetizers",
+    "description": "Delicious warm starters and savory grilled bites.",
+    "section": "banquet_menu",
+    "slug": "hot-appetizers"
+},
+{
+    "name": "Main Dishes",
+    "description": "Hearty and delicious main plates served with care.",
+    "section": "banquet_menu",
+    "slug": "main-dishes"
+},
+{
+    "name": "Salads",
+    "description": "A selection of fresh, crisp salads featuring vibrant seasonal vegetables.",
+    "section": "banquet_menu",
+    "slug": "ssalads"
 }
 ]

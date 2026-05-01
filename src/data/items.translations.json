@@ -2121,6 +2121,1246 @@
       "portion": "50г",
       "allergens": ["lactose"]
     }
+  },
+  {
+    "slug": "espresso-30ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Еспресо 30мл",
+        "en": "Espresso 30ml",
+        "de": "Espresso 30ml",
+        "es": "Espresso 30ml"
+      },
+      "description": {
+        "ua": "Класична міцна кава.",
+        "en": "Classic strong coffee.",
+        "de": "Klassischer starker Kaffee.",
+        "es": "Café fuerte clásico."
+      },
+      "price": 55,
+      "labels": ["30мл"],
+      "fullDescription": {
+        "ua": "Класичне еспресо, об'ємом 30мл.",
+        "en": "Classic espresso, 30ml volume.",
+        "de": "Klassischer Espresso, 30ml Volumen.",
+        "es": "Espresso clásico, volumen de 30ml."
+      },
+      "suggested": ["chocolate-fondant"],
+      "cookTimeMinutes": 3,
+      "portion": "30мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "espresso-with-milk-50ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Еспресо з молоком 50мл",
+        "en": "Espresso with milk 50ml",
+        "de": "Espresso mit Milch 50ml",
+        "es": "Espresso con leche 50ml"
+      },
+      "description": {
+        "ua": "Порція еспресо з додаванням невеликої кількості молока.",
+        "en": "A portion of espresso with a small amount of milk.",
+        "de": "Eine Portion Espresso mit einer kleinen Menge Milch.",
+        "es": "Una porción de espresso con una pequeña cantidad de leche."
+      },
+      "price": 65,
+      "labels": ["50мл"],
+      "fullDescription": {
+        "ua": "Кавовий напій на основі еспресо з молоком, об'ємом 50мл.",
+        "en": "Espresso-based coffee drink with milk, 50ml volume.",
+        "de": "Kaffeegetränk auf Espressobasis mit Milch, 50ml Volumen.",
+        "es": "Bebida de café a base de espresso con leche, volumen de 50ml."
+      },
+      "suggested": ["apple-strudel-ice-cream"],
+      "cookTimeMinutes": 3,
+      "portion": "50мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "americano-130ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Американо 130мл",
+        "en": "Americano 130ml",
+        "de": "Americano 130ml",
+        "es": "Americano 130ml"
+      },
+      "description": {
+        "ua": "Класична кава на основі еспресо з додаванням води.",
+        "en": "Classic coffee based on espresso with added water.",
+        "de": "Klassischer Kaffee auf Espressobasis mit zugesetztem Wasser.",
+        "es": "Café clásico a base de espresso con agua añadida."
+      },
+      "price": 55,
+      "labels": ["130мл"],
+      "fullDescription": {
+        "ua": "Американо, об'ємом 130мл.",
+        "en": "Americano, 130ml volume.",
+        "de": "Americano, 130ml Volumen.",
+        "es": "Americano, volumen de 130ml."
+      },
+      "suggested": ["syrnyky-jam-sour-cream"],
+      "cookTimeMinutes": 3,
+      "portion": "130мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "americano-with-milk-160ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Американо з молоком 160мл",
+        "en": "Americano with milk 160ml",
+        "de": "Americano mit Milch 160ml",
+        "es": "Americano con leche 160ml"
+      },
+      "description": {
+        "ua": "М'яка кава американо з додаванням молока.",
+        "en": "Mild Americano coffee with added milk.",
+        "de": "Milder Americano-Kaffee mit Milchzusatz.",
+        "es": "Café americano suave con leche añadida."
+      },
+      "price": 65,
+      "labels": ["160мл"],
+      "fullDescription": {
+        "ua": "Американо з молоком, загальний об'єм 160мл.",
+        "en": "Americano with milk, total volume 160ml.",
+        "de": "Americano mit Milch, Gesamtvolumen 160ml.",
+        "es": "Americano con leche, volumen total de 160ml."
+      },
+      "suggested": ["cherry-strudel-ice-cream"],
+      "cookTimeMinutes": 3,
+      "portion": "160мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "flat-white-130ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Флет вайт 130мл",
+        "en": "Flat white 130ml",
+        "de": "Flat White 130ml",
+        "es": "Flat white 130ml"
+      },
+      "description": {
+        "ua": "Насичений кавовий напій з подвійним еспресо та молоком.",
+        "en": "Rich coffee drink with double espresso and milk.",
+        "de": "Reichhaltiges Kaffeegetränk mit doppeltem Espresso und Milch.",
+        "es": "Bebida de café intensa con doble espresso y leche."
+      },
+      "price": 75,
+      "labels": ["130мл"],
+      "fullDescription": {
+        "ua": "Флет вайт, об'ємом 130мл.",
+        "en": "Flat white, 130ml volume.",
+        "de": "Flat White, 130ml Volumen.",
+        "es": "Flat white, volumen de 130ml."
+      },
+      "suggested": ["macarons"],
+      "cookTimeMinutes": 5,
+      "portion": "130мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "latte-185ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Лате 185мл",
+        "en": "Latte 185ml",
+        "de": "Latte 185ml",
+        "es": "Latte 185ml"
+      },
+      "description": {
+        "ua": "Ніжна кава з великою кількістю молока та пінкою.",
+        "en": "Delicate coffee with plenty of milk and foam.",
+        "de": "Zarter Kaffee mit viel Milch und Schaum.",
+        "es": "Café delicado con mucha leche y espuma."
+      },
+      "price": 85,
+      "labels": ["185мл"],
+      "fullDescription": {
+        "ua": "Лате, об'ємом 185мл.",
+        "en": "Latte, 185ml volume.",
+        "de": "Latte, 185ml Volumen.",
+        "es": "Latte, volumen de 185ml."
+      },
+      "suggested": ["poppy-pancakes-ice-cream"],
+      "cookTimeMinutes": 5,
+      "portion": "185мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "cocoa",
+    "document": "item",
+    "data": {
+      "categorySlug": "coffee",
+      "title": {
+        "ua": "Какао",
+        "en": "Cocoa",
+        "de": "Kakao",
+        "es": "Cacao"
+      },
+      "description": {
+        "ua": "Солодкий та зігріваючий шоколадний напій.",
+        "en": "Sweet and warming chocolate drink.",
+        "de": "Süßes und wärmendes Schokoladengetränk.",
+        "es": "Bebida de chocolate dulce y reconfortante."
+      },
+      "price": 85,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Класичне какао на молоці.",
+        "en": "Classic cocoa with milk.",
+        "de": "Klassischer Kakao mit Milch.",
+        "es": "Cacao clásico con leche."
+      },
+      "suggested": ["cherry-strudel-ice-cream"],
+      "cookTimeMinutes": 5,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+  "slug": "brewed-tea-500ml",
+  "document": "item",
+  "data": {
+    "categorySlug": "tea",
+    "title": {
+      "ua": "Чай заварний 500мл",
+      "en": "Brewed tea 500ml",
+      "de": "Aufгусс-Tee 500ml",
+      "es": "Té de tetera 500ml"
+    },
+    "description": {
+      "ua": "Класичний заварний чай у чайнику.",
+      "en": "Classic brewed tea in a teapot.",
+      "de": "Klassischer aufgebrühter Tee in einer Teekanne.",
+      "es": "Té clásico en tetera."
+    },
+    "price": 45,
+    "labels": ["500мл"],
+    "fullDescription": {
+      "ua": "Чай заварний, порція 500мл. Доступні різні види на вибір.",
+      "en": "Brewed tea, 500ml portion. Various types available to choose from.",
+      "de": "Aufgebrühter Tee, 500ml Portion. Verschiedene Sorten zur Auswahl verfügbar.",
+      "es": "Té de tetera, porción de 500ml. Varios tipos disponibles para elegir."
+    },
+    "suggested": ["apple-strudel-ice-cream", "syrnyky-jam-sour-cream"],
+    "cookTimeMinutes": 5,
+    "portion": "500мл",
+    "allergens": []
   }
+},
+{
+    "slug": "coca-cola-glass-200ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Кока кола скло 200мл",
+        "en": "Coca-Cola glass 200ml",
+        "de": "Coca-Cola Glas 200ml",
+        "es": "Coca-Cola vidrio 200ml"
+      },
+      "description": {
+        "ua": "Класичний газований напій у скляній пляшці.",
+        "en": "Classic carbonated drink in a glass bottle.",
+        "de": "Klassisches kohlensäurehaltiges Getränk in einer Glasflasche.",
+        "es": "Bebida gaseosa clásica en botella de vidrio."
+      },
+      "price": 46,
+      "labels": ["200мл"],
+      "fullDescription": {
+        "ua": "Кока кола у склі, об'ємом 200мл.",
+        "en": "Coca-Cola in glass, 200ml volume.",
+        "de": "Coca-Cola in Glas, 200ml Volumen.",
+        "es": "Coca-Cola en vidrio, volumen de 200ml."
+      },
+      "suggested": ["french-fries", "chicken-nuggets"],
+      "cookTimeMinutes": 1,
+      "portion": "200мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "fanta-glass-200ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Фанта скло 200мл",
+        "en": "Fanta glass 200ml",
+        "de": "Fanta Glas 200ml",
+        "es": "Fanta vidrio 200ml"
+      },
+      "description": {
+        "ua": "Газований напій зі смаком апельсина у склі.",
+        "en": "Orange-flavored carbonated drink in glass.",
+        "de": "Kohlensäurehaltiges Getränk mit Orangengeschmack in Glas.",
+        "es": "Bebida gaseosa con sabor a naranja en vidrio."
+      },
+      "price": 46,
+      "labels": ["200мл"],
+      "fullDescription": {
+        "ua": "Фанта у склі, об'ємом 200мл.",
+        "en": "Fanta in glass, 200ml volume.",
+        "de": "Fanta in Glas, 200ml Volumen.",
+        "es": "Fanta en vidrio, volumen de 200ml."
+      },
+      "suggested": ["french-fries"],
+      "cookTimeMinutes": 1,
+      "portion": "200мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "sprite-glass-200ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Спрайт скло 200мл",
+        "en": "Sprite glass 200ml",
+        "de": "Sprite Glas 200ml",
+        "es": "Sprite vidrio 200ml"
+      },
+      "description": {
+        "ua": "Освіжаючий напій з лимонно-лаймовим смаком.",
+        "en": "Refreshing lemon-lime flavored drink.",
+        "de": "Erfrischendes Getränk mit Zitronen-Limetten-Geschmack.",
+        "es": "Bebida refrescante con sabor a limón y lima."
+      },
+      "price": 43,
+      "labels": ["200мл"],
+      "fullDescription": {
+        "ua": "Спрайт у склі, об'ємом 200мл.",
+        "en": "Sprite in glass, 200ml volume.",
+        "de": "Sprite in Glas, 200ml Volumen.",
+        "es": "Sprite en vidrio, volumen de 200ml."
+      },
+      "suggested": ["mozzarella-fritti"],
+      "cookTimeMinutes": 1,
+      "portion": "200мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "bonaqua-05l",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Бонаква 0,5л",
+        "en": "Bonaqua 0.5L",
+        "de": "Bonaqua 0,5L",
+        "es": "Bonaqua 0,5L"
+      },
+      "description": {
+        "ua": "Мінеральна негазована або слабогазована вода.",
+        "en": "Still or sparkling mineral water.",
+        "de": "Stilles oder kohlensäurehaltiges Mineralwasser.",
+        "es": "Agua mineral con o sin gas."
+      },
+      "price": 25,
+      "labels": ["0,5л"],
+      "fullDescription": {
+        "ua": "Бонаква в асортименті, об'ємом 0,5л.",
+        "en": "Assorted Bonaqua, 0.5L volume.",
+        "de": "Bonaqua Sortiment, 0,5L Volumen.",
+        "es": "Bonaqua surtida, volumen de 0,5L."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "0,5л",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "juice-assorted-200ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Сік в асортименті 200мл",
+        "en": "Assorted juice 200ml",
+        "de": "Saft-Sortiment 200ml",
+        "es": "Jugo surtido 200ml"
+      },
+      "description": {
+        "ua": "Фруктовий сік в асортименті.",
+        "en": "Assorted fruit juice.",
+        "de": "Verschiedene Fruchtsäfte.",
+        "es": "Jugo de frutas surtido."
+      },
+      "price": 40,
+      "labels": ["200мл"],
+      "fullDescription": {
+        "ua": "Сік (яблуко, апельсин, вишня тощо), об'ємом 200мл.",
+        "en": "Juice (apple, orange, cherry, etc.), 200ml volume.",
+        "de": "Saft (Apfel, Orange, Kirsche, etc.), 200ml Volumen.",
+        "es": "Jugo (manzana, naranja, cereza, etc.), volumen de 200ml."
+      },
+      "suggested": ["apple-strudel-ice-cream"],
+      "cookTimeMinutes": 1,
+      "portion": "200мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "schweppes-330ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "cold-drinks",
+      "title": {
+        "ua": "Швепс 330ml",
+        "en": "Schweppes 330ml",
+        "de": "Schweppes 330ml",
+        "es": "Schweppes 330ml"
+      },
+      "description": {
+        "ua": "Класичний тонік або газований напій.",
+        "en": "Classic tonic or carbonated drink.",
+        "de": "Klassisches Tonic Water oder kohlensäurehaltiges Getränk.",
+        "es": "Tónica clásica o bebida gaseosa."
+      },
+      "price": 45,
+      "labels": ["330мл"],
+      "fullDescription": {
+        "ua": "Швепс, об'ємом 330мл.",
+        "en": "Schweppes, 330ml volume.",
+        "de": "Schweppes, 330ml Volumen.",
+        "es": "Schweppes, volumen de 330ml."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 1,
+      "portion": "330мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "pina-colada-non-alcoholic-170ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "non-alcoholic-cocktails",
+      "title": {
+        "ua": "Піна колада б/а 170мл",
+        "en": "Virgin Pina Colada 170ml",
+        "de": "Alkoholfreie Pina Colada 170ml",
+        "es": "Piña colada sin alcohol 170ml"
+      },
+      "description": {
+        "ua": "Безалкогольна версія тропічного коктейлю.",
+        "en": "Non-alcoholic version of the tropical cocktail.",
+        "de": "Alkoholfreie Version des tropischen Cocktails.",
+        "es": "Versión sin alcohol del cóctel tropical."
+      },
+      "price": 120,
+      "labels": ["170мл"],
+      "fullDescription": {
+        "ua": "Піна колада безалкогольна, об'ємом 170мл.",
+        "en": "Non-alcoholic Pina Colada, 170ml volume.",
+        "de": "Alkoholfreie Pina Colada, 170ml Volumen.",
+        "es": "Piña colada sin alcohol, volumen de 170ml."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 5,
+      "portion": "170мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "bumble-coffee-250ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "non-alcoholic-cocktails",
+      "title": {
+        "ua": "Бамбл 250мл",
+        "en": "Bumble Coffee 250ml",
+        "de": "Bumble Coffee 250ml",
+        "es": "Café Bumble 250ml"
+      },
+      "description": {
+        "ua": "Освіжаючий кавовий напій з апельсиновим соком.",
+        "en": "Refreshing coffee drink with orange juice.",
+        "de": "Erfrischendes Kaffeegetränk mit Orangensaft.",
+        "es": "Refrescante bebida de café con zumo de naranja."
+      },
+      "price": 95,
+      "labels": ["250мл"],
+      "fullDescription": {
+        "ua": "Бамбл кава, об'ємом 250мл.",
+        "en": "Bumble coffee, 250ml volume.",
+        "de": "Bumble Coffee, 250ml Volumen.",
+        "es": "Café Bumble, volumen de 250ml."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 5,
+      "portion": "250мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "blue-lagoon-260ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "non-alcoholic-cocktails",
+      "title": {
+        "ua": "Голуба лагуна 260мл",
+        "en": "Blue Lagoon 260ml",
+        "de": "Blue Lagoon 260ml",
+        "es": "Laguna Azul 260ml"
+      },
+      "description": {
+        "ua": "Яскравий коктейль із характерним блакитним кольором.",
+        "en": "Vibrant cocktail with a signature blue color.",
+        "de": "Farbenfroher Cocktail mit charakteristischer blauer Farbe.",
+        "es": "Cóctel vibrante con un color azul característico."
+      },
+      "price": 110,
+      "labels": ["260мл"],
+      "fullDescription": {
+        "ua": "Коктейль Голуба лагуна, об'ємом 260мл.",
+        "en": "Blue Lagoon cocktail, 260ml volume.",
+        "de": "Blue Lagoon Cocktail, 260ml Volumen.",
+        "es": "Cóctel Laguna Azul, volumen de 260ml."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 5,
+      "portion": "260мл",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "honey-portion",
+    "document": "item",
+    "data": {
+      "categorySlug": "drink-add-ons",
+      "title": {
+        "ua": "Мед порц.",
+        "en": "Honey portion",
+        "de": "Portion Honig",
+        "es": "Porción de miel"
+      },
+      "description": {
+        "ua": "Порційний натуральний мед.",
+        "en": "Portion of natural honey.",
+        "de": "Natürlicher Honig in Einzelportionen.",
+        "es": "Miel natural en porciones."
+      },
+      "price": 20,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Мед натуральний порційний.",
+        "en": "Portioned natural honey.",
+        "de": "Natürlicher Honig, portioniert.",
+        "es": "Miel natural porcionada."
+      },
+      "suggested": ["brewed-tea-500ml"],
+      "cookTimeMinutes": 1,
+      "portion": "1 порц.",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "syrup-for-drinks-10g",
+    "document": "item",
+    "data": {
+      "categorySlug": "drink-add-ons",
+      "title": {
+        "ua": "Сироп до напоїв 10г",
+        "en": "Syrup for drinks 10g",
+        "de": "Sirup für Getränke 10g",
+        "es": "Jarabe para bebidas 10g"
+      },
+      "description": {
+        "ua": "Сироп в асортименті для кави та чаю.",
+        "en": "Assorted syrup for coffee and tea.",
+        "de": "Sirup-Sortiment für Kaffee und Tee.",
+        "es": "Sirope surtido para café y té."
+      },
+      "price": 15,
+      "labels": ["10г"],
+      "fullDescription": {
+        "ua": "Сироп до напоїв, порція 10г.",
+        "en": "Syrup for drinks, 10g portion.",
+        "de": "Sirup für Getränke, 10g Portion.",
+        "es": "Jarabe para bebidas, porción de 10g."
+      },
+      "suggested": ["latte-185ml", "americano-130ml"],
+      "cookTimeMinutes": 1,
+      "portion": "10г",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "milk-50ml",
+    "document": "item",
+    "data": {
+      "categorySlug": "drink-add-ons",
+      "title": {
+        "ua": "Молоко 50мл",
+        "en": "Milk 50ml",
+        "de": "Milch 50ml",
+        "es": "Leche 50ml"
+      },
+      "description": {
+        "ua": "Додаткова порція молока до напою.",
+        "en": "An extra portion of milk for your drink.",
+        "de": "Eine zusätzliche Portion Milch für Ihr Getränk.",
+        "es": "Una porción extra de leche para su bebida."
+      },
+      "price": 15,
+      "labels": ["50мл"],
+      "fullDescription": {
+        "ua": "Молоко коров'яче, порція 50мл.",
+        "en": "Cow's milk, 50ml portion.",
+        "de": "Kuhmilch, 50ml Portion.",
+        "es": "Leche de vaca, porción de 50ml."
+      },
+      "suggested": ["americano-130ml", "brewed-tea-500ml"],
+      "cookTimeMinutes": 1,
+      "portion": "50мл",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "bruschetta-camembert-2pcs",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Брускета з камамбером 2 шт",
+        "en": "Camembert Bruschetta 2 pcs",
+        "de": "Bruschetta mit Camembert 2 Stk",
+        "es": "Bruschetta de camembert 2 uds"
+      },
+      "description": {
+        "ua": "Брускети з цільнозернового хліба з кремом фета, камамбером та абрикосовим джемом.",
+        "en": "Whole grain bread bruschettas with feta cream, camembert, and apricot jam.",
+        "de": "Vollkornbrot-Bruschettas mit Feta-Creme, Camembert und Aprikosenmarmelade.",
+        "es": "Bruschettas de pan integral con crema de feta, camembert y mermelada de albaricoque."
+      },
+      "price": 120,
+      "labels": ["2 шт"],
+      "fullDescription": {
+        "ua": "Брускети готуємо з цільнозернового хліба, додаємо крем фета, сир камамбер та абрикосовий джем, посипаємо мигдальними пластівцями.",
+        "en": "Bruschettas made from whole grain bread with feta cream, camembert cheese, and apricot jam, sprinkled with almond flakes.",
+        "de": "Bruschettas aus Vollkornbrot mit Feta-Creme, Camembert-Käse und Aprikosenmarmelade, bestreut mit Mandelblättchen.",
+        "es": "Bruschettas elaboradas con pan integral, crema de feta, queso camembert y mermelada de albaricoque, espolvoreadas con láminas de almendra."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "2 шт",
+      "allergens": ["lactose", "gluten", "nuts"]
+    }
+  },
+  {
+    "slug": "bruschetta-herring-2pcs",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Брускета з оселедцем 2 шт",
+        "en": "Herring Bruschetta 2 pcs",
+        "de": "Bruschetta mit Hering 2 Stk",
+        "es": "Bruschetta de arenque 2 uds"
+      },
+      "description": {
+        "ua": "Брускети з цільнозернового хліба з кремом фета та маринованим оселедцем.",
+        "en": "Whole grain bread bruschettas with feta cream and marinated herring.",
+        "de": "Vollkornbrot-Bruschettas mit Feta-Creme und mariniertem Hering.",
+        "es": "Bruschettas de pan integral con crema de feta y arenque marinado."
+      },
+      "price": 120,
+      "labels": ["2 шт"],
+      "fullDescription": {
+        "ua": "Брускети готуємо з цільнозернового хліба, крему фета, маринованого оселедця та маринованої синьої цибулі.",
+        "en": "Bruschettas made from whole grain bread, feta cream, marinated herring, and marinated red onion.",
+        "de": "Bruschettas aus Vollkornbrot, Feta-Creme, mariniertem Hering und marinierten roten Zwiebeln.",
+        "es": "Bruschettas elaboradas con pan integral, crema de feta, arenque marinado y cebolla morada marinada."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "2 шт",
+      "allergens": ["fish", "lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "salmon-tartare",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Тартар з лосося",
+        "en": "Salmon Tartare",
+        "de": "Lachs-Tatar",
+        "es": "Tartar de salmón"
+      },
+      "description": {
+        "ua": "Класична закуска зі свіжого лосося.",
+        "en": "A classic appetizer made of fresh salmon.",
+        "de": "Ein klassischer Vorspeise aus frischem Lachs.",
+        "es": "Un aperitivo clásico hecho de salmón fresco."
+      },
+      "price": 310,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Тартар з лосося.",
+        "en": "Salmon tartare.",
+        "de": "Lachs-Tatar.",
+        "es": "Tartar de salmón."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["fish"]
+    }
+  },
+  {
+    "slug": "antipasti-board",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Дошка антипасті",
+        "en": "Antipasti Board",
+        "de": "Antipasti-Platte",
+        "es": "Tabla de antipasti"
+      },
+      "description": {
+        "ua": "Великий асортимент італійських закусок.",
+        "en": "A large assortment of Italian appetizers.",
+        "de": "Eine große Auswahl an italienischen Vorspeisen.",
+        "es": "Un gran surtido de aperitivos italianos."
+      },
+      "price": 650,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Дошка антипасті.",
+        "en": "Antipasti board.",
+        "de": "Antipasti-Platte.",
+        "es": "Tabla de antipasti."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["lactose", "gluten"]
+    }
+  },
+  {
+    "slug": "caprese",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Капрезе",
+        "en": "Caprese",
+        "de": "Caprese",
+        "es": "Caprese"
+      },
+      "description": {
+        "ua": "Моцарела з маринованими томатами чері.",
+        "en": "Mozzarella with marinated cherry tomatoes.",
+        "de": "Mozzarella mit marinierten Kirschtomaten.",
+        "es": "Mozzarella con tomates cherry marinados."
+      },
+      "price": 250,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Класична італійська закуска з молодої моцарели та маринованих томатів чері, подаємо з оливковою олією та базиліком.",
+        "en": "Classic Italian appetizer with fresh mozzarella and marinated cherry tomatoes, served with olive oil and basil.",
+        "de": "Klassische italienische Vorspeise mit frischem Mozzarella und marinierten Kirschtomaten, serviert mit Olivenöl und Basilikum.",
+        "es": "Aperitivo italiano clásico con mozzarella fresca y tomates cherry marinados, servido con aceite de oliva y albahaca."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": ["lactose"]
+    }
+  },
+  {
+    "slug": "pickles-assorted",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Квашенина",
+        "en": "Pickles",
+        "de": "Eingelegtes Gemüse",
+        "es": "Encurtidos"
+      },
+      "description": {
+        "ua": "Асорті маринованих овочів.",
+        "en": "Assorted marinated vegetables.",
+        "de": "Verschiedene marinierte Gemüsesorten.",
+        "es": "Variedad de verduras marinadas."
+      },
+      "price": 190,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Мариновані томати, капуста, огірки та шампіньйони.",
+        "en": "Marinated tomatoes, cabbage, cucumbers, and mushrooms.",
+        "de": "Marinierte Tomaten, Kohl, Gurken und Champignons.",
+        "es": "Tomates, col, pepinos y champiñones marinados."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 5,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "meat-platter",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "М'ясна нарізка",
+        "en": "Meat Platter",
+        "de": "Aufschnittplatte",
+        "es": "Tabla de embutidos"
+      },
+      "description": {
+        "ua": "Асорті м'ясних делікатесів.",
+        "en": "Assorted meat delicacies.",
+        "de": "Verschiedene Fleischspezialitäten.",
+        "es": "Surtido de delicias de carne."
+      },
+      "price": 350,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Асорті з шинки, м'ясного рулету, маринованого сала та бекону, подаємо з гірчицею в зернах і маринованою цибулею.",
+        "en": "Assortment of ham, meat roll, marinated lard, and bacon, served with whole grain mustard and marinated onions.",
+        "de": "Auswahl an Schinken, Fleischrolle, mariniertem Speck und Schinken, serviert mit grobem Senf und marinierten Zwiebeln.",
+        "es": "Surtido de jamón, rollo de carne, manteca marinada y tocino, servido con mostaza en grano y cebollas marinadas."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": ["mustard"]
+    }
+  },
+  {
+    "slug": "chicken-liver-pate",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Паштет з курячої печінки",
+        "en": "Chicken Liver Pate",
+        "de": "Hühnerleberpastete",
+        "es": "Paté de hígado de pollo"
+      },
+      "description": {
+        "ua": "Ніжний паштет з грінками.",
+        "en": "Delicate pate with croutons.",
+        "de": "Zarte Pastete mit Croûtons.",
+        "es": "Paté delicado con picatostes."
+      },
+      "price": 160,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Ніжний курячий паштет з овочами подаємо з вершковим маслом, мигдальними пластівцями та грінками з цільнозернового хліба.",
+        "en": "Delicate chicken pate with vegetables served with butter, almond flakes, and whole grain bread croutons.",
+        "de": "Zarte Hühnerpastete mit Gemüse, serviert mit Butter, Mandelblättchen und Vollkornbrot-Croûtons.",
+        "es": "Paté de pollo delicado con verduras servido con mantequilla, láminas de almendra y picatostes de pan integral."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": ["lactose", "gluten", "nuts"]
+    }
+  },
+  {
+    "slug": "cheese-platter",
+    "document": "item",
+    "data": {
+      "categorySlug": "appetizers",
+      "title": {
+        "ua": "Сирна нарізка",
+        "en": "Cheese Platter",
+        "de": "Käseplatte",
+        "es": "Tabla de quesos"
+      },
+      "description": {
+        "ua": "Асорті вишуканих сирів.",
+        "en": "Assorted gourmet cheeses.",
+        "de": "Auswahl an exquisiten Käsesorten.",
+        "es": "Surtido de quesos gourmet."
+      },
+      "price": 390,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Сирна тарілка з м'якого французького сиру, дор блю з благородною пліснявою та італійського пармезану, подаємо з абрикосовим джемом і мигдальними пластівцями.",
+        "en": "Cheese plate with soft French cheese, blue cheese (Dorblu), and Italian Parmesan, served with apricot jam and almond flakes.",
+        "de": "Käseplatte mit französischem Weichkäse, Blauschimmelkäse (Dorblu) und italienischem Parmesan, serviert mit Aprikosenmarmelade und Mandelblättchen.",
+        "es": "Plato de quesos con queso blando francés, queso azul (Dorblu) y parmesano italiano, servido con mermelada de albaricoque y láminas de almendra."
+      },
+      "suggested": [],
+      "cookTimeMinutes": 10,
+      "portion": "1 порція",
+      "allergens": ["lactose", "nuts"]
+    }
+  },
+  {
+  "slug": "chicken-bouillon",
+  "document": "item",
+  "data": {
+    "categorySlug": "first-courses",
+    "title": {
+      "ua": "Бульйон курячий",
+      "en": "Chicken Bouillon",
+      "de": "Hühnerbrühe",
+      "es": "Caldo de pollo"
+    },
+    "description": {
+      "ua": "Класичний прозорий курячий бульйон.",
+      "en": "Classic clear chicken bouillon.",
+      "de": "Klassische klare Hühnerbrühe.",
+      "es": "Caldo de pollo claro clásico."
+    },
+    "price": 95,
+    "labels": [],
+    "fullDescription": {
+      "ua": "Гарячий курячий бульйон, приготований за традиційним рецептом.",
+      "en": "Hot chicken bouillon prepared according to a traditional recipe.",
+      "de": "Heißer Hühnerbouillon, nach traditionellem Rezept zubereitet.",
+      "es": "Caldo de pollo caliente preparado según una receta tradicional."
+    },
+    "suggested": ["bread-75g", "egg-1pc"],
+    "cookTimeMinutes": 10,
+    "portion": "1 порція",
+    "allergens": []
+  }
+},
+{
+    "slug": "baked-vegetables",
+    "document": "item",
+    "data": {
+      "categorySlug": "hot-appetizers",
+      "title": {
+        "ua": "Печені овочі",
+        "en": "Baked vegetables",
+        "de": "Gebackenes Gemüse",
+        "es": "Verduras al horno"
+      },
+      "description": {
+        "ua": "Сезонні овочі, запечені до золотистої скоринки.",
+        "en": "Seasonal vegetables baked until golden brown.",
+        "de": "Saisonales Gemüse, goldbraun gebacken.",
+        "es": "Verduras de temporada horneadas hasta que estén doradas."
+      },
+      "price": 170,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Асорті з печених овочів.",
+        "en": "Assorted baked vegetables.",
+        "de": "Sortiment an gebackenem Gemüse.",
+        "es": "Surtido de verduras al horno."
+      },
+      "suggested": ["chicken-bouillon"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "breaded-shrimp",
+    "document": "item",
+    "data": {
+      "categorySlug": "hot-appetizers",
+      "title": {
+        "ua": "Креветки паніровані",
+        "en": "Breaded shrimp",
+        "de": "Panierte Garnelen",
+        "es": "Camarones empanizados"
+      },
+      "description": {
+        "ua": "Тигрові креветки у сухарях панко з кисло-солодким соусом.",
+        "en": "Tiger prawns in panko breadcrumbs with sweet and sour sauce.",
+        "de": "Tigergarnelen in Panko-Panade mit süß-saurer Sauce.",
+        "es": "Langostinos tigre en pan rallado panko con salsa agridulce."
+      },
+      "price": 290,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Тигрові креветки паніруємо зі спеціями та соєвим соусом у сухарях панко, подаємо з кисло-солодким соусом на основі майонезу.",
+        "en": "Tiger prawns breaded with spices and soy sauce in panko breadcrumbs, served with a mayonnaise-based sweet and sour sauce.",
+        "de": "Tigergarnelen paniert mit Gewürzen und Sojasauce in Panko-Mehl, serviert mit einer süß-sauren Sauce auf Mayonnaise-Basis.",
+        "es": "Langostinos tigre empanizados con especias y salsa de soja en pan rallado panko, servidos con una salsa agridulce a base de mayonesa."
+      },
+      "suggested": ["white-wine"],
+      "cookTimeMinutes": 12,
+      "portion": "1 порція",
+      "allergens": ["crustaceans", "soy", "gluten", "eggs"]
+    }
+  },
+  {
+    "slug": "sweet-sour-chicken",
+    "document": "item",
+    "data": {
+      "categorySlug": "hot-appetizers",
+      "title": {
+        "ua": "Курка в кислосолодкому соусі",
+        "en": "Sweet and sour chicken",
+        "de": "Hähnchen in süß-saurer Sauce",
+        "es": "Pollo en salsa agridulce"
+      },
+      "description": {
+        "ua": "Обсмажене куряче філе з кунжутом.",
+        "en": "Fried chicken fillet with sesame seeds.",
+        "de": "Gebratenes Hähnchenfilet mit Sesam.",
+        "es": "Filete de pollo frito con sésamo."
+      },
+      "price": 260,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Мариноване куряче філе обсмажуємо у фритюрі, поєднуємо з кисло-солодким соусом та посипаємо кунжутом.",
+        "en": "Marinated chicken fillet is deep-fried, combined with sweet and sour sauce, and sprinkled with sesame seeds.",
+        "de": "Mariniertes Hähnchenfilet wird frittiert, mit süß-saurer Sauce kombiniert und mit Sesam bestreut.",
+        "es": "El filete de pollo marinado se fríe, se combina con salsa agridulce y se espolvorea con semillas de sésamo."
+      },
+      "suggested": ["schweppes-330ml"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["sesame", "gluten"]
+    }
+  },
+  {
+    "slug": "breaded-camembert",
+    "document": "item",
+    "data": {
+      "categorySlug": "hot-appetizers",
+      "title": {
+        "ua": "Сир камамбер панірований",
+        "en": "Breaded camembert cheese",
+        "de": "Panierter Camembert",
+        "es": "Queso camembert empanizado"
+      },
+      "description": {
+        "ua": "Смажений камамбер з мигдалем та джемом.",
+        "en": "Fried camembert with almonds and jam.",
+        "de": "Gebackener Camembert mit Mandeln und Marmelade.",
+        "es": "Camembert frito con almendras y mermelada."
+      },
+      "price": 240,
+      "labels": [],
+      "fullDescription": {
+        "ua": "М'який французький сир паніруємо та обсмажуємо у фритюрі, подаємо з мигдальними пластівцями та абрикосовим джемом.",
+        "en": "Soft French cheese is breaded and deep-fried, served with almond flakes and apricot jam.",
+        "de": "Französischer Weichkäse wird paniert und frittiert, serviert mit Mandelblättchen und Aprikosenmarmelade.",
+        "es": "El queso blando francés se empaniza y se fríe, se sirve con láminas de almendra y mermelada de albaricoque."
+      },
+      "suggested": ["pina-colada-non-alcoholic-170ml"],
+      "cookTimeMinutes": 12,
+      "portion": "1 порція",
+      "allergens": ["lactose", "gluten", "nuts"]
+    }
+  },
+  {
+    "slug": "chicken-fillet-potato-puree-mustard-sauce",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-dishes",
+      "title": {
+        "ua": "Куряче філе з томатно картопляним пюре та вершково гірчичним соусом",
+        "en": "Chicken fillet with tomato mashed potatoes and creamy mustard sauce",
+        "de": "Hähnchenfilet mit Tomaten-Kartoffelpüree und cremiger Senfsauce",
+        "es": "Filete de pollo con puré de patatas al tomate y salsa de mostaza cremosa"
+      },
+      "description": {
+        "ua": "Запечене куряче філе на ніжному картопляному пюре з маринованими томатами чері та вершково-гірчичним соусом.",
+        "en": "Baked chicken fillet on tender mashed potatoes with marinated cherry tomatoes and creamy mustard sauce.",
+        "de": "Gebackenes Hähnchenfilet auf zartem Kartoffelpüree mit marinierten Kirschtomaten und cremiger Senfsauce.",
+        "es": "Filete de pollo al horno sobre puré de patatas tierno con tomates cherry marinados y salsa de mostaza cremosa."
+      },
+      "price": 450,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Запечене куряче філе подаємо на ніжному картопляному пюре з маринованими томатами чері та вершково-гірчичним соусом із зеленню.",
+        "en": "Baked chicken fillet served on tender mashed potatoes with marinated cherry tomatoes and creamy mustard sauce with herbs.",
+        "de": "Gebackenes Hähnchenfilet serviert auf zartem Kartoffelpüree mit marinierten Kirschtomaten und cremiger Senfsauce mit Kräutern.",
+        "es": "Filete de pollo al horno servido sobre puré de patatas tierno con tomates cherry marinados y salsa de mostaza cremosa con hierbas."
+      },
+      "suggested": ["white-wine", "bonaqua-05l"],
+      "cookTimeMinutes": 25,
+      "portion": "1 порція",
+      "allergens": ["lactose", "mustard"]
+    }
+  },
+  {
+    "slug": "salmon-spinach-risotto",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-dishes",
+      "title": {
+        "ua": "Лосось з шпинатним різото",
+        "en": "Salmon with spinach risotto",
+        "de": "Lachs mit Spinatrisotto",
+        "es": "Salmón con risotto de espinacas"
+      },
+      "description": {
+        "ua": "Філе лосося з італійським різото, пармезаном та шпинатом.",
+        "en": "Salmon fillet with Italian risotto, parmesan, and spinach.",
+        "de": "Lachsfilet mit italienischem Risotto, Parmesan und Spinat.",
+        "es": "Filete de salmón con risotto italiano, parmesano y espinacas."
+      },
+      "price": 950,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Філе лосося запікаємо та подаємо з класичним італійським різото з пармезаном, маслом, вершками та шпинатом, посипаємо пармезаном і мигдальними пластівцями.",
+        "en": "Baked salmon fillet served with classic Italian risotto with parmesan, butter, cream, and spinach, sprinkled with parmesan and almond flakes.",
+        "de": "Gebackenes Lachsfilet serviert mit klassischem italienischem Risotto mit Parmesan, Butter, Sahne und Spinat, bestreut mit Parmesan und Mandelblättchen.",
+        "es": "Filete de salmón al horno servido con risotto italiano clásico con parmesano, mantequilla, nata y espinacas, espolvoreado con parmesano y láminas de almendra."
+      },
+      "suggested": ["white-wine"],
+      "cookTimeMinutes": 30,
+      "portion": "1 порція",
+      "allergens": ["fish", "lactose", "nuts"]
+    }
+  },
+  {
+    "slug": "meat-set",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-dishes",
+      "title": {
+        "ua": "М'ясний сет",
+        "en": "Meat set",
+        "de": "Fleisch-Set",
+        "es": "Set de carnes"
+      },
+      "description": {
+        "ua": "Асорті з курки, свинини, телячого люля-кебаба та крилець BBQ.",
+        "en": "Assortment of chicken, pork, veal lula kebab, and BBQ wings.",
+        "de": "Sortiment aus Hähnchen, Schweinefleisch, Kalbs-Lula-Kebab und BBQ-Wings.",
+        "es": "Surtido de pollo, cerdo, lula kebab de ternera y alitas BBQ."
+      },
+      "price": 1100,
+      "labels": ["Для компанії"],
+      "fullDescription": {
+        "ua": "Сет із запеченого курячого філе, тушкованої свинини в соусі, телячого люля-кебаба, курячих крил у соусі барбекю та запеченої картоплі з травами.",
+        "en": "Set of baked chicken fillet, stewed pork in sauce, veal lula kebab, chicken wings in barbecue sauce, and baked potatoes with herbs.",
+        "de": "Set aus gebackenem Hähnchenfilet, geschmortem Schweinefleisch in Sauce, Kalbs-Lula-Kebab, Hähnchenflügeln in Barbecue-Sauce und Backkartoffeln mit Kräutern.",
+        "es": "Set de filete de pollo al horno, cerdo estofado en salsa, lula kebab de ternera, alitas de pollo en salsa barbacoa y patatas al horno con hierbas."
+      },
+      "suggested": ["red-wine", "coca-cola-glass-200ml"],
+      "cookTimeMinutes": 40,
+      "portion": "1 сет",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "dorado-fillet-vegetable-bed",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-dishes",
+      "title": {
+        "ua": "Філе дорадо на овочевій подушці",
+        "en": "Dorado fillet on a vegetable bed",
+        "de": "Doradenfilet auf einem Gemüsebett",
+        "es": "Filete de dorada sobre cama de verduras"
+      },
+      "description": {
+        "ua": "Ніжне філе дорадо з овочами.",
+        "en": "Tender dorado fillet with vegetables.",
+        "de": "Zartes Doradenfilet mit Gemüse.",
+        "es": "Tierno filete de dorada con verduras."
+      },
+      "price": 930,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Філе дорадо на овочевій подушці.",
+        "en": "Dorado fillet on a vegetable bed.",
+        "de": "Doradenfilet auf einem Gemüsebett.",
+        "es": "Filete de dorada sobre cama de verduras."
+      },
+      "suggested": ["white-wine"],
+      "cookTimeMinutes": 25,
+      "portion": "1 порція",
+      "allergens": ["fish"]
+    }
+  },
+  {
+    "slug": "braised-pork-vegetables-baked-potatoes",
+    "document": "item",
+    "data": {
+      "categorySlug": "main-dishes",
+      "title": {
+        "ua": "Томлена свинина з овочами та печеною картоплею",
+        "en": "Braised pork with vegetables and baked potatoes",
+        "de": "Geschmortes Schweinefleisch mit Gemüse und Backkartoffeln",
+        "es": "Cerdo estofado con verduras y patatas al horno"
+      },
+      "description": {
+        "ua": "Соковита свинина з гарніром із картоплі та овочів.",
+        "en": "Juicy pork with a side of potatoes and vegetables.",
+        "de": "Saftiges Schweinefleisch mit einer Beilage aus Kartoffeln und Gemüse.",
+        "es": "Cerdo jugoso con guarnición de patatas y verduras."
+      },
+      "price": 490,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Томлена свинина з овочами та печеною картоплею.",
+        "en": "Braised pork with vegetables and baked potatoes.",
+        "de": "Geschmortes Schweinefleisch mit Gemüse und Backkartoffeln.",
+        "es": "Cerdo estofado con verduras y patatas al horno."
+      },
+      "suggested": ["red-wine", "beer"],
+      "cookTimeMinutes": 30,
+      "portion": "1 порція",
+      "allergens": []
+    }
+  },
+  {
+    "slug": "salmon-salad",
+    "document": "item",
+    "data": {
+      "categorySlug": "salads",
+      "title": {
+        "ua": "Салат з лососем",
+        "en": "Salmon Salad",
+        "de": "Lachssalat",
+        "es": "Ensalada de salmón"
+      },
+      "description": {
+        "ua": "Свіжий салат з філе лосося та зеленню.",
+        "en": "Fresh salad with salmon fillet and greens.",
+        "de": "Frischer Salat mit Lachsfilet und Kräutern.",
+        "es": "Ensalada fresca con filete de salmón y verduras."
+      },
+      "price": 310,
+      "labels": [],
+      "fullDescription": {
+        "ua": "Поживний салат зі шматочками слабосоленого або запеченого лосося, міксом салату та фірмовою заправкою.",
+        "en": "Nutritious salad with pieces of lightly salted or baked salmon, mixed greens, and signature dressing.",
+        "de": "Nahrhafter Salat mit Stücken von leicht gesalzenem oder gebackenem Lachs, gemischtem Salat und Signatur-Dressing.",
+        "es": "Ensalada nutritiva con trozos de salmón ligeramente salado o al horno, mezcla de lechugas y aderezo de la casa."
+      },
+      "suggested": ["white-wine", "bonaqua-05l"],
+      "cookTimeMinutes": 15,
+      "portion": "1 порція",
+      "allergens": ["fish"]
+    }
+}
   
 ]

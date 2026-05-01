@@ -58,5 +58,35 @@
         "es": "Bar",
         "sv": "Bar"
     }
+},
+{
+    "id": "banquet_menu",
+    "names": {
+        "ua": "Банкетне меню",
+        "bg": "Банкетно меню",
+        "hr": "Banketni jelovnik",
+        "cs": "Banketní menu",
+        "da": "Banketmenu",
+        "nl": "Banketmenu",
+        "en": "Banquet Menu",
+        "et": "Banketimenüü",
+        "fi": "Bankettimenu",
+        "fr": "Menu de banquet",
+        "de": "Bankettmenü",
+        "el": "Μενού συμποσίου",
+        "hu": "Bankett menü",
+        "ga": "Roghchlár féasta",
+        "it": "Menu banchetto",
+        "lv": "Banketa ēdienkarte",
+        "lt": "Banketinis meniu",
+        "mt": "Menu tal-bankett",
+        "pl": "Menu bankietowe",
+        "pt": "Menu de banquete",
+        "ro": "Meniu de banchet",
+        "sk": "Banketové menu",
+        "sl": "Banketni meni",
+        "es": "Menú de banquete",
+        "sv": "Bankettmeny"
+    }
 }
 ]
