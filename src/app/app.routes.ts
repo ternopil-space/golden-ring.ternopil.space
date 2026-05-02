@@ -8,7 +8,8 @@ export const routes: Routes = [
 	},
 	{
 		path: 'rooms',
-		loadComponent: () => import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
+		loadComponent: () =>
+			import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
 	},
 	{
 		path: 'navigation',
@@ -17,8 +18,7 @@ export const routes: Routes = [
 	},
 	{
 		path: 'gallery',
-		loadComponent: () =>
-			import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
+		loadComponent: () => import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
 	},
 	{
 		path: 'dish/:slug',
@@ -35,8 +35,7 @@ export const routes: Routes = [
 	},
 	{
 		path: 'reviews',
-		loadComponent: () =>
-			import('./pages/reviews/reviews.component').then((m) => m.ReviewsComponent),
+		loadComponent: () => import('./pages/reviews/reviews.component').then((m) => m.ReviewsComponent),
 	},
 	{
 		path: 'events',

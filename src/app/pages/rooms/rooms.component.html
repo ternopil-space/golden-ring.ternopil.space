@@ -6,8 +6,8 @@
 			<div class="relative min-h-[18rem] lg:min-h-[30rem]">
 				<img
 					class="object-cover"
-					ngSrc="room/room-1.webp"
-					alt="Демо готельний номер Horeca"
+					ngSrc="room/golden-ring-hero.jpeg"
+					alt="Номер у готелі Golden Ring"
 					fill
 					priority
 					sizes="(max-width: 1023px) 100vw, 60vw"
@@ -19,18 +19,18 @@
 					Номери
 				</p>
 				<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.4rem]">
-					Демо-сторінка номерів для HoReCa бізнесу
+					Номери готелю Golden Ring у Тернополі
 				</h1>
 				<p class="mt-4 text-sm leading-7 text-[var(--c-text-muted)]">
-					Цей розділ можна адаптувати для готелю, ресторанно-готельного комплексу,
-					садиби, апарт-готелю або заміського відпочинкового простору.
+					Golden Ring пропонує комфортні номери різних категорій для короткого відпочинку,
+					сімейних поїздок і ділових візитів у Тернопіль.
 				</p>
 				<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-					Покажіть категорії номерів, ключові зручності, фото, вартість і швидкий
-					спосіб бронювання для гостей.
+					У базових зручностях доступні власна ванна кімната, телевізор, безкоштовний
+					Wi-Fi, кондиціонер і парковка для гостей.
 				</p>
 				<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-					Вартість номерів <span class="font-semibold text-[var(--c-text-secondary)]">від 1800 грн/доба</span>.
+					Вартість номерів <span class="font-semibold text-[var(--c-text-secondary)]">від 1200 грн/ніч</span>.
 				</p>
 			</div>
 		</div>
@@ -42,8 +42,9 @@
 						Що доступно гостям
 					</h2>
 					<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-						Додайте послуги, які важливі саме для вашого закладу: сніданок, ресторан,
-						паркінг, SPA, конференц-зал, трансфер або проживання з тваринами.
+						На сторінці зібрані основні зручності, які найчастіше шукають гості перед
+						бронюванням: формат ліжок, базове оснащення номера та умови комфортного
+						проживання.
 					</p>
 				</div>
 
@@ -60,7 +61,7 @@
 		</div>
 
 		<div class="border-t border-[var(--c-border)] px-4 py-6 sm:px-6 lg:px-8">
-			<div class="grid gap-5 xl:grid-cols-3">
+			<div class="grid gap-5 xl:grid-cols-2">
 				@for (room of rooms; track room.name) {
 					<article
 						class="room-card overflow-hidden rounded-[1.35rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
@@ -71,7 +72,7 @@
 								[ngSrc]="room.image"
 								[alt]="room.imageAlt"
 								fill
-								sizes="(max-width: 1279px) 100vw, 34vw"
+								sizes="(max-width: 1279px) 100vw, 50vw"
 							/>
 						</div>
 
@@ -88,7 +89,7 @@
 								</p>
 								<a
 									class="inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-primary)]"
-									href="tel:+380970000000"
+									href="tel:+380680707717"
 									aria-label="Зателефонувати для бронювання номера"
 								>
 									Забронювати
@@ -107,11 +108,12 @@
 						Бронювання
 					</p>
 					<h2 class="mt-3 text-[1.5rem] font-semibold text-[var(--c-text-secondary)]">
-						Зв'яжіться з нами зручним способом
+						Уточніть наявність і актуальну вартість на ваші дати
 					</h2>
 					<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-						Використовуйте цей блок для телефону, месенджерів або форми бронювання.
-						У демо-версії вказані безпечні тестові контакти.
+						Ціни на сторінці орієнтовні та можуть змінюватися залежно від сезону,
+						завантаження та обраних дат. Для підтвердження бронювання скористайтеся
+						телефоном або офіційними каналами готелю.
 					</p>
 				</div>
 
@@ -139,7 +141,7 @@
 			<img
 				class="mx-auto h-auto w-24 opacity-90 sm:w-28"
 				ngSrc="logo.png"
-				alt="Horeca"
+				alt="Golden Ring"
 				width="720"
 				height="720"
 			/>

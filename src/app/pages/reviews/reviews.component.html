@@ -1,24 +1,47 @@
 <main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
 	<section
-		class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
-		<div
-			class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
-		>
-			<span class="material-symbols-outlined text-[28px]" aria-hidden="true">rate_review</span>
+		<div class="border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8">
+			<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				Відгуки гостей
+			</p>
+			<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.3rem]">
+				Що гості пишуть про Golden Ring
+			</h1>
+			<p class="mt-3 max-w-[44rem] text-sm leading-7 text-[var(--c-text-muted)]">
+				Зібрали актуальні враження гостей про чистоту, персонал, розташування,
+				комфорт номерів і моменти, на які також звертають увагу під час проживання.
+			</p>
 		</div>
 
-		<p
-			class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-			translate
-		>
-			Reviews
-		</p>
-		<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
-			This page is currently empty
-		</h1>
-		<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
-			Check back later for updates.
-		</p>
+		<div class="grid gap-4 px-4 py-6 sm:px-6 lg:grid-cols-2 lg:px-8">
+			@for (review of reviews; track review.author + review.date + review.score) {
+				<article
+					class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 shadow-[var(--shadow-xs)]"
+				>
+					<div class="flex items-start justify-between gap-4">
+						<div>
+							<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+								{{ review.author }}
+							</h2>
+							<p class="mt-1 text-sm text-[var(--c-text-muted)]">
+								{{ review.date }}
+							</p>
+						</div>
+
+						<div
+							class="rounded-full border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-3 py-1 text-sm font-semibold text-[var(--c-secondary)]"
+						>
+							{{ review.score }}
+						</div>
+					</div>
+
+					<p class="mt-4 text-sm leading-7 text-[var(--c-text-muted)]">
+						“{{ review.text }}”
+					</p>
+				</article>
+			}
+		</div>
 	</section>
 </main>
