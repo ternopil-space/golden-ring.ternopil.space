@@ -6,15 +6,11 @@
 			<p
 				class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 			>
-				Socials
+				{{ socialsTitle() }}
 			</p>
 			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
-				Контакти та соцмережі Golden Ring
+				{{ goldenRingContactsTitle() }}
 			</h1>
-			<p class="mt-2 max-w-[44rem] text-sm leading-6 text-[var(--c-text-muted)]">
-				Сторінка зібрана лише з підтверджених або явно позначених даних про готель Golden
-				Ring у Тернополі. Непідтверджені соцмережі не ведуть на зовнішні посилання.
-			</p>
 		</div>
 
 		<div class="grid gap-4 p-4 lg:grid-cols-[minmax(0,1fr)_18rem_minmax(0,1fr)] lg:p-6">
@@ -22,7 +18,7 @@
 				<a
 					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 					href="tel:+380680707717"
-					aria-label="Зателефонувати до готелю Golden Ring"
+					aria-label="Call Golden Ring hotel"
 				>
 					<div class="flex items-start gap-4">
 						<span
@@ -36,13 +32,13 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Телефон
+								{{ phoneLabel() }}
 							</p>
 							<p class="mt-2 text-lg font-semibold text-[var(--c-text-secondary)]">
 								+380 68 070 77 17
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								Основний номер для бронювання номерів, уточнення послуг і довідок.
+								{{ phoneDescription() }}
 							</p>
 						</div>
 					</div>
@@ -53,7 +49,7 @@
 					href="https://goldenring.com.ua"
 					target="_blank"
 					rel="noreferrer"
-					aria-label="Відкрити офіційний сайт Golden Ring"
+					aria-label="Open Golden Ring official website"
 				>
 					<div class="flex items-start gap-4">
 						<span
@@ -67,7 +63,7 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Вебсайт
+								{{ websiteLabel() }}
 							</p>
 							<p
 								class="mt-2 break-all text-lg font-semibold text-[var(--c-text-secondary)]"
@@ -75,7 +71,7 @@
 								goldenring.com.ua
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								Офіційний сайт з описом номерів, ресторану, SPA та додаткових послуг.
+								{{ websiteDescription() }}
 							</p>
 						</div>
 					</div>
@@ -96,16 +92,15 @@
 							<p
 								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 							>
-								Оцінка гостей
+								{{ guestRatingLabel() }}
 							</p>
 							<p
 								class="mt-2 text-lg font-semibold leading-7 text-[var(--c-text-secondary)]"
 							>
-								Приблизно 8,5 / 10
+								{{ guestRatingValue() }}
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								За даними Booking.com та інших сервісів гості позитивно відзначають
-								розташування, чистоту та комфорт.
+								{{ guestRatingDescription() }}
 							</p>
 						</div>
 					</div>
@@ -137,24 +132,23 @@
 				<div
 					class="contact-card rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Формат</p>
+					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ formatLabel() }}</p>
 					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						Готель з рестораном та додатковими послугами для відпочинку, сімейних поїздок
-						і ділових подій.
+						{{ formatDescription() }}
 					</p>
 				</div>
 
 				<div
 					class="contact-card rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]"
 				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Послуги</p>
+					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">{{ servicesLabel() }}</p>
 					<ul class="mt-2 space-y-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						<li>Комфортні номери різного класу</li>
-						<li>Ресторан</li>
-						<li>SPA-центр</li>
-						<li>Конференц-зал і дитяча кімната</li>
-						<li>Безкоштовний Wi-Fi</li>
-						<li>Безкоштовна парковка</li>
+						<li>{{ serviceComfortableRooms() }}</li>
+						<li>{{ serviceRestaurant() }}</li>
+						<li>{{ serviceSpa() }}</li>
+						<li>{{ serviceConference() }}</li>
+						<li>{{ serviceWifi() }}</li>
+						<li>{{ serviceParking() }}</li>
 					</ul>
 				</div>
 			</div>

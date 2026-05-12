@@ -7,6 +7,7 @@ import { LanguageOption } from '../../feature/language/language.interface';
 import { LanguageService } from '../../feature/language/language.service';
 
 @Component({
+	standalone: true,
 	selector: 'app-topbar',
 	imports: [NgOptimizedImage, RouterLink, TranslatePipe],
 	templateUrl: './topbar.component.html',
@@ -42,7 +43,6 @@ export class TopbarComponent {
 
 	constructor() {
 		this._themeService.init();
-		this._languageService.init();
 	}
 
 	protected toggleMode() {

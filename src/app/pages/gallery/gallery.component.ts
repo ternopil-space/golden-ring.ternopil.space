@@ -1,4 +1,6 @@
-import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
+import { LanguageService } from '../../feature/language/language.service';
 
 interface GalleryPhoto {
 	src: string;
@@ -6,32 +8,45 @@ interface GalleryPhoto {
 }
 
 @Component({
+	standalone: true,
+	imports: [TranslatePipe],
 	templateUrl: './gallery.component.html',
 	styleUrl: './gallery.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GalleryComponent {
+	private readonly _translateService = inject(TranslateService);
+	private readonly _languageService = inject(LanguageService);
+
+	protected readonly languageTrigger = computed(() => this._languageService.language());
+
+	protected readonly galleryTitle = computed(() => this._translateService.translate('Gallery')());
+	protected readonly galleryHeadline = computed(() => this._translateService.translate('Golden Ring in photos')());
+	protected readonly galleryDescription = computed(
+		() => this._translateService.translate('Gallery description')(),
+	);
+
 	protected readonly photos: GalleryPhoto[] = [
-		{ src: 'gallery/golden-ring-01.jpeg', alt: 'Зовнішній вигляд готелю Golden Ring' },
-		{ src: 'gallery/golden-ring-02.jpeg', alt: 'Інтерєр та зона для гостей у Golden Ring' },
-		{ src: 'gallery/golden-ring-03.jpeg', alt: 'Номер у готелі Golden Ring' },
-		{ src: 'gallery/golden-ring-04.jpeg', alt: 'Інтерєр номера в Golden Ring' },
-		{ src: 'gallery/golden-ring-05.jpeg', alt: 'Ліжко та зона відпочинку в номері Golden Ring' },
-		{ src: 'gallery/golden-ring-06.jpeg', alt: 'Світлий номер готелю Golden Ring' },
-		{ src: 'gallery/golden-ring-07.jpeg', alt: 'Облаштування номера в Golden Ring' },
-		{ src: 'gallery/golden-ring-08.jpeg', alt: 'Ще один номер для гостей у Golden Ring' },
-		{ src: 'gallery/golden-ring-09.jpeg', alt: 'Деталі інтерєру в номері Golden Ring' },
-		{ src: 'gallery/golden-ring-10.jpeg', alt: 'Простір для проживання у Golden Ring' },
-		{ src: 'gallery/golden-ring-11.jpeg', alt: 'Номер із меблями та декором у Golden Ring' },
-		{ src: 'gallery/golden-ring-12.jpeg', alt: 'Зона відпочинку в готелі Golden Ring' },
-		{ src: 'gallery/golden-ring-13.jpeg', alt: 'Ресторанна або сніданкова зона Golden Ring' },
-		{ src: 'gallery/golden-ring-14.jpeg', alt: 'Сервірування або їжа в Golden Ring' },
-		{ src: 'gallery/golden-ring-15.jpeg', alt: 'Ще один кадр ресторанної частини Golden Ring' },
-		{ src: 'gallery/golden-ring-16.jpeg', alt: 'Готельний інтерєр Golden Ring' },
-		{ src: 'gallery/golden-ring-17.jpeg', alt: 'Фото деталей номеру Golden Ring' },
-		{ src: 'gallery/golden-ring-18.jpeg', alt: 'Номер або апартаменти в Golden Ring' },
-		{ src: 'gallery/golden-ring-19.jpeg', alt: 'Комфортний простір для гостей у Golden Ring' },
-		{ src: 'gallery/golden-ring-20.jpeg', alt: 'Ще одне фото готелю Golden Ring у Тернополі' },
+		{ src: 'gallery/golden-ring-01.jpeg', alt: 'Golden Ring hotel exterior' },
+		{ src: 'gallery/golden-ring-02.jpeg', alt: 'Interior and guest area at Golden Ring' },
+		{ src: 'gallery/golden-ring-03.jpeg', alt: 'Hotel room at Golden Ring' },
+		{ src: 'gallery/golden-ring-04.jpeg', alt: 'Room interior at Golden Ring' },
+		{ src: 'gallery/golden-ring-05.jpeg', alt: 'Bed and relaxation area in a Golden Ring room' },
+		{ src: 'gallery/golden-ring-06.jpeg', alt: 'Bright Golden Ring hotel room' },
+		{ src: 'gallery/golden-ring-07.jpeg', alt: 'Room layout at Golden Ring' },
+		{ src: 'gallery/golden-ring-08.jpeg', alt: 'Another guest room at Golden Ring' },
+		{ src: 'gallery/golden-ring-09.jpeg', alt: 'Interior details in a Golden Ring room' },
+		{ src: 'gallery/golden-ring-10.jpeg', alt: 'Living space at Golden Ring' },
+		{ src: 'gallery/golden-ring-11.jpeg', alt: 'Furnished and decorated room at Golden Ring' },
+		{ src: 'gallery/golden-ring-12.jpeg', alt: 'Relaxation area at Golden Ring hotel' },
+		{ src: 'gallery/golden-ring-13.jpeg', alt: 'Restaurant or breakfast area at Golden Ring' },
+		{ src: 'gallery/golden-ring-14.jpeg', alt: 'Table setting or food at Golden Ring' },
+		{ src: 'gallery/golden-ring-15.jpeg', alt: 'Another shot of the restaurant section at Golden Ring' },
+		{ src: 'gallery/golden-ring-16.jpeg', alt: 'Hotel interior at Golden Ring' },
+		{ src: 'gallery/golden-ring-17.jpeg', alt: 'Photo of Golden Ring room details' },
+		{ src: 'gallery/golden-ring-18.jpeg', alt: 'Room or apartment at Golden Ring' },
+		{ src: 'gallery/golden-ring-19.jpeg', alt: 'Comfortable guest space at Golden Ring' },
+		{ src: 'gallery/golden-ring-20.jpeg', alt: 'Another photo of the Golden Ring hotel in Ternopil' },
 	];
 
 	protected readonly selectedPhoto = signal<GalleryPhoto | null>(null);

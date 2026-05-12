@@ -126,13 +126,6 @@ function _buildFacts(
 					: `${item.cookTimeMinutes} min`,
 		},
 		{
-			label: translateService.translate('Calories')(),
-			value:
-				item.caloriesKcal === null
-					? translateService.translate('Ask restaurant staff')()
-					: `${item.caloriesKcal} kcal`,
-		},
-		{
 			label: translateService.translate('Allergens')(),
 			value:
 				item.allergens.length > 0
